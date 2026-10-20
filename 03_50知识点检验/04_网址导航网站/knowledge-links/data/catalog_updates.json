@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updates": [
+    {
+      "id": 79,
+      "url": "https://datasearch.nmpa.gov.cn/datasearch/home-index.html",
+      "title": "国家药品监督管理局数据查询系统",
+      "siteName": "国家药品监督管理局数据查询系统"
+    }
+  ],
+  "additions": [
+    {
+      "id": 197,
+      "title": "AI 知数",
+      "siteName": "AI 知数",
+      "siteAliases": ["AI知数", "ai知数", "知网AI知数", "中国知网", "CNKI"],
+      "url": "https://data.cnki.net/aidata/chat",
+      "host": "data.cnki.net",
+      "modules": [],
+      "moduleTitles": [],
+      "categories": ["补充资料"],
+      "variants": ["https://data.cnki.net/aidata/chat"]
+    }
+  ]
+}

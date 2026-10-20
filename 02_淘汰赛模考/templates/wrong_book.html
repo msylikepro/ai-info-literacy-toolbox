@@ -1,0 +1,7 @@
+{% extends 'base.html' %}{% block title %}我的错题本 · AI+信息素养{% endblock %}
+{% block content %}
+<div class="heading drill-heading"><div><a href="/">← 训练控制台</a><h1>我的错题本</h1><p class="muted">答错自动记录，答对标记已掌握；保留你的错误次数和上次错答。</p></div><a class="button primary" href="/drill?mode=wrong">重练待复习错题</a></div>
+<div id="wrong-error" class="notice hidden" role="alert"></div>
+<section class="card"><div class="row between wrong-toolbar"><p id="wrong-stats" role="status">正在读取错题记录…</p><label for="wrong-filter">显示 <select id="wrong-filter"><option value="active">待复习</option><option value="mastered">已掌握</option><option value="all">全部历史</option></select></label></div><p class="muted">错题重练与全题库刷题分别保存进度，互不打断。</p></section>
+<div id="wrong-list"></div><div class="row between"><button id="wrong-prev" disabled>上一页</button><span id="wrong-page" class="muted"></span><button id="wrong-next" disabled>下一页</button></div>
+<script src="{{ url_for('static',filename='wrong_book.js') }}"></script>{% endblock %}

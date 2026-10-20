@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}浏览题库 · AI+信息素养{% endblock %}
+{% block content %}
+<div class="heading drill-heading"><div><a href="/">← 训练控制台</a><h1>浏览题库</h1><p class="muted">浏览全部已导入题目 · 检索题干和选项 · 每题独立查看答案</p></div><div class="row drill-entry-actions"><a class="button" href="/drill">去刷题 / 继续上次</a><a class="button" href="/favorites">我的收藏集</a></div></div>
+<form id="bank-search-form" class="card bank-search" role="search"><label for="bank-query">题目关键词</label><div class="row"><input id="bank-query" type="search" maxlength="200" placeholder="输入题干或选项关键词，多个词用空格分隔"><button class="primary" type="submit">检索题目</button><button id="bank-clear" type="button">查看全部</button></div><p class="muted">每页 20 题，包含预置和后续导入的题目。答案默认隐藏；查看答案不会改变错题本、收藏、刷题进度或模考成绩。</p></form>
+<div id="bank-error" class="notice hidden" role="alert"></div>
+<p id="bank-summary" class="save-status" role="status">正在读取题库…</p>
+<div id="bank-results" aria-busy="true"></div>
+<nav id="bank-pagination" class="row bank-pagination" aria-label="题库分页" hidden><button id="bank-prev">上一页</button><span id="bank-page" class="muted"></span><button id="bank-next">下一页</button></nav>
+<script src="{{ url_for('static',filename='question_bank.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "changes": [
+    {
+      "id": 79,
+      "from": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+      "to": "https://datasearch.nmpa.gov.cn/datasearch/home-index.html"
+    }
+  ]
+}

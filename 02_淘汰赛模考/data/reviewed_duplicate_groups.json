@@ -1,0 +1,3288 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "audit_sha256": "19a2320e950e02374f1e23a1ae12fa1b206695023cc0fa6b589d80a719d70373",
+  "description": "Audited preset-only fingerprint groups. Preserve all legacy rows and IDs. Do not extend whitespace removal to arbitrary future expressions.",
+  "sources": [
+    {
+      "path": "02_淘汰赛模考\\data\\source_questions.json",
+      "sha256": "8419ee691d469a7c8b06d5699b6127bf5cb507cbdc7781160813ef5b82c9a214"
+    },
+    {
+      "path": "02_淘汰赛模考\\data\\source_bank.json",
+      "sha256": "147f520c9c3366ebef4b11562be53cb8c3f5fcc5a6e596339e5f5f4a67c02605"
+    }
+  ],
+  "expected_legacy_physical": 373,
+  "expected_active": 229,
+  "groups": [
+    {
+      "id": 1,
+      "type": "single",
+      "options": [
+        "aitechniquesandapplications",
+        "competencyblocksforlevel1:understand",
+        "ethicsofai",
+        "human-centredmindset"
+      ],
+      "answers": [
+        "competencyblocksforlevel1:understand"
+      ],
+      "members": [
+        {
+          "fingerprint": "e81e31a5702d5bafa033c8b934f3a8e975973e37ef476c211e4aebe713d9cc76",
+          "original_id": "2025-M01-Q1"
+        },
+        {
+          "fingerprint": "d020986bdb148e0fb02c76f2e396b0b8d4b2609e989af66be5f37be31dbdc40b",
+          "original_id": "O01"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multi",
+      "options": [
+        "deepseek",
+        "hunyuan",
+        "qwen",
+        "文心"
+      ],
+      "answers": [
+        "deepseek",
+        "hunyuan"
+      ],
+      "members": [
+        {
+          "fingerprint": "e72ef84486b847a3aa2fdfe68be9d0b19c04ff26a10e9c4536fdddb708060fc1",
+          "original_id": "2025-M03-Q1"
+        },
+        {
+          "fingerprint": "5ea991a84a74997db11e03e8ca2c2abc5915522da2cb29547fcc9e875a295f72",
+          "original_id": "O03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multi",
+      "options": [
+        "dj",
+        "戏曲",
+        "朋克",
+        "民谣"
+      ],
+      "answers": [
+        "dj",
+        "朋克",
+        "民谣"
+      ],
+      "members": [
+        {
+          "fingerprint": "bd935d1874f41eb202f256fa9a6d1bea768ebb2dcbd6cd1fbde344a821ef44d2",
+          "original_id": "2025-M06-Q1"
+        },
+        {
+          "fingerprint": "60a45d664519d76cb5874a49dc007d4e29c81d5ce4d501452245620dcaa85fac",
+          "original_id": "O07"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "options": [
+        "753.3087",
+        "758.5298",
+        "797.1991",
+        "801.2213"
+      ],
+      "answers": [
+        "753.3087"
+      ],
+      "members": [
+        {
+          "fingerprint": "59496d748107efd94bcda70518d7a5700774d7a3ffdb37e8abc3a5f67561ccad",
+          "original_id": "2025-M09-Q1"
+        },
+        {
+          "fingerprint": "2887ffe0f54db7a5cc09e7d6fe253e7a5613d245123ea9655cc1de443c0fe4ad",
+          "original_id": "2026-M09-Q1"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "options": [
+        "83640",
+        "87065",
+        "88910",
+        "92245"
+      ],
+      "answers": [
+        "92245"
+      ],
+      "members": [
+        {
+          "fingerprint": "f5bab2aeded4b8f1d6c84f8a27baa09ea59033bbcd8fccaf9813366b38a6c4da",
+          "original_id": "2025-M10-Q1"
+        },
+        {
+          "fingerprint": "34d919dbf0638fede5fd7a1c9eee93b913619b4244fbd3a97d672f839d216bb5",
+          "original_id": "O12"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "multi",
+      "options": [
+        "公共安全",
+        "公共政策",
+        "时事政治",
+        "科学常识"
+      ],
+      "answers": [
+        "公共安全",
+        "公共政策",
+        "时事政治",
+        "科学常识"
+      ],
+      "members": [
+        {
+          "fingerprint": "d36dcbdf2135282b372c3a0325a7751ca6dcf3db40e75e6d97014b139a13e21b",
+          "original_id": "2025-M13-Q1"
+        },
+        {
+          "fingerprint": "7873cad1547ebe8e3431a554314eb5f740e931e00c62c187a24c965c3daf8b1a",
+          "original_id": "O15"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "options": [
+        "不循常规的语序",
+        "诗之声:选音与读音",
+        "诗的节奏与韵律",
+        "诗的语词及构句特点"
+      ],
+      "answers": [
+        "不循常规的语序"
+      ],
+      "members": [
+        {
+          "fingerprint": "2620ed56ee5118587db35c952932cb535420d146e62c517b828e34e22449f6a1",
+          "original_id": "2025-M17-Q1"
+        },
+        {
+          "fingerprint": "7b377cc61e6bd6f327199cc5f21866b1a3c7b1d0e0b87056d2ef207ff537cf78",
+          "original_id": "O20"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answers": [
+        "2"
+      ],
+      "members": [
+        {
+          "fingerprint": "260654b0ff7f53868e0ee5d9c3b569db18547db57bd210c0dddefb3b66607fdc",
+          "original_id": "2025-M19-Q1"
+        },
+        {
+          "fingerprint": "2aa8f579be145f77a914ed8a0e6d235a42b2edde12c488c93783c52d228a01d6",
+          "original_id": "2026-M19-Q1"
+        },
+        {
+          "fingerprint": "d2f4603dd50090fee59a42698a30ea127b9d83a87d14137eb9283a91295693ff",
+          "original_id": "O22"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "564515e5ada230d9c8b5b9dea4833c17ca1a32f02c2e3ba4a37d1df2a7cb0ad7",
+          "original_id": "2025-M20-Q1"
+        },
+        {
+          "fingerprint": "4f85b046a95f432e4940390906839dfc5918e610e9987ff43a6c8253a1dd0a5a",
+          "original_id": "O23"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "options": [
+        "12",
+        "20",
+        "37",
+        "5"
+      ],
+      "answers": [
+        "20"
+      ],
+      "members": [
+        {
+          "fingerprint": "0bb9b5c2d7c37fd474431904d6a19b14ee17b6e2f5bf61fbd14bc10381222923",
+          "original_id": "2025-M21-Q1"
+        },
+        {
+          "fingerprint": "dfd570e98aeb0b21c75e1da19390227d4a0ad9d3894cc2e0e5a3301c4cfb45ac",
+          "original_id": "O24"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "options": [
+        "14",
+        "18",
+        "23",
+        "9"
+      ],
+      "answers": [
+        "18"
+      ],
+      "members": [
+        {
+          "fingerprint": "08f060cd002eed72189267a33707118a33ebeeb2c6e448bdf8ed7481edc0e7e7",
+          "original_id": "2025-M24-Q1"
+        },
+        {
+          "fingerprint": "ce859d34c72badc620b24f3a99f426480e1b8e1edeb74d25bc238d1a168f1903",
+          "original_id": "O26"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "2f9bee3af11f115c458be68c909328b70a570e2e1edc60b96dfc38b9ccc3cf82",
+          "original_id": "2025-M25-Q1"
+        },
+        {
+          "fingerprint": "49cdb0520afaefc0ce8bcd8c90ede4811f0eb97e82021eae800a48707ad3f28f",
+          "original_id": "O27"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "options": [
+        "arxiv",
+        "oxfordacademic",
+        "pubmed",
+        "science"
+      ],
+      "answers": [
+        "oxfordacademic"
+      ],
+      "members": [
+        {
+          "fingerprint": "264a669dc5e45aeea7845a7702b5b92207cac9c53c7af117b7d9a893f9af503d",
+          "original_id": "2025-M26-Q1"
+        },
+        {
+          "fingerprint": "a7362af78009970f011d5b300a3d8e715c8fa07df4996012119675bf5ddb7cd1",
+          "original_id": "O28"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "options": [
+        "1",
+        "24",
+        "47",
+        "6"
+      ],
+      "answers": [
+        "6"
+      ],
+      "members": [
+        {
+          "fingerprint": "fb8352d15197687a20e50a8a98178e3308110d7dd9374eb2f0ebe0ac236ce25c",
+          "original_id": "2025-M32-Q1"
+        },
+        {
+          "fingerprint": "f24e0a5b010437f4373c641e7fde1d9b43590769cf7dd38e7c2c201117a40f81",
+          "original_id": "O34"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "options": [
+        "作者单位",
+        "关键词",
+        "期刊名称",
+        "题名"
+      ],
+      "answers": [
+        "题名"
+      ],
+      "members": [
+        {
+          "fingerprint": "df90b2c0df626973b57372897e7709d46f32b22e5c153ebf38d0c708b3639c8b",
+          "original_id": "2025-M36-Q1"
+        },
+        {
+          "fingerprint": "cd31a880e154160ebf65d63102bb9c468b1cc926b9546576ba1f0f76abc60f13",
+          "original_id": "2026-M36-Q1"
+        },
+        {
+          "fingerprint": "cd622082232868c0403ef3230345053a02871e0732d67b87dc0ab16cd1aa2702",
+          "original_id": "O38"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "multi",
+      "options": [
+        "仅url中",
+        "仅网页图片中",
+        "仅网页标题中",
+        "网页任何地方"
+      ],
+      "answers": [
+        "仅url中",
+        "仅网页标题中",
+        "网页任何地方"
+      ],
+      "members": [
+        {
+          "fingerprint": "35456699bc6e7f9caafe069219dfe7cc0b8c2df6343b8000c76d14c6ad86017f",
+          "original_id": "2025-M37-Q1"
+        },
+        {
+          "fingerprint": "698ec7e8355240a087826def2eb6b412cd46ca06e966e0c666ceeaf14aade949",
+          "original_id": "M02"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "96632292d60a8e0e9e2291644d9d976e99d923da1d8e1824bf0e1cb60fcf9f47",
+          "original_id": "2025-M39-Q1"
+        },
+        {
+          "fingerprint": "e8f66507868cccaef1286207eaa17d46aec52999f2dcf59693a9ecde4071d2ba",
+          "original_id": "O41"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "options": [
+        "打马赛克",
+        "把图片贴在桌面上",
+        "添加文字",
+        "识别截图区域的文字"
+      ],
+      "answers": [
+        "把图片贴在桌面上"
+      ],
+      "members": [
+        {
+          "fingerprint": "cda9f2a277eecba0c2fd2b34a58bee0755ac00273793781061061a743a76300e",
+          "original_id": "2025-M40-Q1"
+        },
+        {
+          "fingerprint": "9439b28bfdd2f70d1384f7625f14900126f42543796517c385eaab748506f5b8",
+          "original_id": "O42"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "multi",
+      "options": [
+        "将主要数据和图表相同的两篇论文分别投稿不同期刊",
+        "将发表过的会议论文充实50%以上数据后再次向期刊投稿,引用上次发表的论文并向编辑部说明",
+        "将同一篇论文同时投稿多家期刊",
+        "论文以不同或同一种文字在同一种期刊的国际版本上再次发表"
+      ],
+      "answers": [
+        "将主要数据和图表相同的两篇论文分别投稿不同期刊",
+        "将同一篇论文同时投稿多家期刊"
+      ],
+      "members": [
+        {
+          "fingerprint": "8cb287db996486c6c202faa45a929035d4a24e40b53bbd4f0424c1a7c924f13f",
+          "original_id": "2025-M43-Q1"
+        },
+        {
+          "fingerprint": "86ae92149dd1e082ae1758a01da08e9ea6322192d848479856b6e06809c6d894",
+          "original_id": "O45"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "b6d7658b1bd4becc6fdeea9043ec554ebbe87c1b9fd43b0e51f9b08e17645fb2",
+          "original_id": "2025-M45-Q1"
+        },
+        {
+          "fingerprint": "dea9cfad2fda69b8645f95db9a41c3742e9a9d66a1978eb560c48ba94a9bc351",
+          "original_id": "O47"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "fe318afebfdc18b0df8339e19e74f519db751afd684cd95745bb2c0ace6e22c1",
+          "original_id": "2025-M46-Q1"
+        },
+        {
+          "fingerprint": "1855e1438d465f1b8733fcdc3a639aac0f7a50e6e1be7184a9dc7fe5fe84707e",
+          "original_id": "O48"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "type": "single",
+      "options": [
+        "https://navi.cnki.net/knavi/rss/rst",
+        "https://navi.cnki.net/knavi/rss/steu",
+        "https://navi.cnki.net/knavi/rss/stud",
+        "https://navi.cnki.net/knavi/rss/styu"
+      ],
+      "answers": [
+        "https://navi.cnki.net/knavi/rss/stud"
+      ],
+      "members": [
+        {
+          "fingerprint": "28b5a9968dacf650fe9f8327c5c791fc00c57d5c4dfd8d3ebe0e9cabdd5bcfff",
+          "original_id": "2025-M47-Q1"
+        },
+        {
+          "fingerprint": "97733b8f499f5b7609ee53c309acad4d071c7192555204732eef78be473ea747",
+          "original_id": "O50"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "options": [
+        "left()",
+        "mid()",
+        "right()",
+        "trim()"
+      ],
+      "answers": [
+        "mid()"
+      ],
+      "members": [
+        {
+          "fingerprint": "0f54a72eadeca5f5eda1d0c872bc65dd3193069bbf4df6a6a0ae020cd595eabe",
+          "original_id": "2025-M48-Q1"
+        },
+        {
+          "fingerprint": "6d7026da4d6cf9aa2e69cff28dd3db1de55c0f0f418597967ddff2e4d76c601a",
+          "original_id": "O51"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "c0b1388458abac367e5daba3912fbcadbdf7e26cbb83eecb3787c75594ae1b47",
+          "original_id": "2025-M49-Q1"
+        },
+        {
+          "fingerprint": "3718b239a43e76fe9d685cc9f6a9eba90f822adbf263e98f79fb9718f79521ad",
+          "original_id": "O52"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "options": [
+        "唐代兴",
+        "汪洪亮",
+        "蔡方鹿",
+        "谭光辉"
+      ],
+      "answers": [
+        "唐代兴"
+      ],
+      "members": [
+        {
+          "fingerprint": "6a061b6607e783d221999493394917563233685135a6eaf5f675460e84f59f6d",
+          "original_id": "2025-M50-Q1"
+        },
+        {
+          "fingerprint": "be125f007c1ee6c6f55ce312772d76b0bf067025670497932ef0bfc3105ff9b1",
+          "original_id": "O53"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "type": "single",
+      "options": [
+        "学术趋势分析",
+        "智能研读-专题简报",
+        "智能研读-知识卡片",
+        "知识问答-deepresearch模式"
+      ],
+      "answers": [
+        "知识问答-deepresearch模式"
+      ],
+      "members": [
+        {
+          "fingerprint": "4a2eb220ffdc732bb1aa4719307c47f54417bd8311976a5aa0c3c56e58e3edd1",
+          "original_id": "2026-M05-Q3"
+        },
+        {
+          "fingerprint": "f1c6dedd30ea3d638f0766da8e4b66b923ccef361a6618f1ec71210c60fe4f83",
+          "original_id": "O06"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "type": "multi",
+      "options": [
+        "3yearsago",
+        "5yearsago",
+        "introducereuseinfra(#5028)",
+        "updatelicensetoapachelicensev2.0(#3159)"
+      ],
+      "answers": [
+        "3yearsago",
+        "introducereuseinfra(#5028)"
+      ],
+      "members": [
+        {
+          "fingerprint": "95e117407f4a545827bfc0a18087ced0d94b40c6f309105b873dbc2e8193a15a",
+          "original_id": "2026-M07-Q1"
+        },
+        {
+          "fingerprint": "41c52a3fbaa53c9e31519b466f7a9fd118a767f8191549db2f5dc4a634319539",
+          "original_id": "O08"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "options": [
+        "上海",
+        "北京",
+        "天津",
+        "浙江"
+      ],
+      "answers": [
+        "上海"
+      ],
+      "members": [
+        {
+          "fingerprint": "20970fab1252b0ab0cddc66a2cb1fa47e15104ed9bb47663c9c3eb559da02a7a",
+          "original_id": "2026-M09-Q2"
+        },
+        {
+          "fingerprint": "40b2ff7fea88da601d2025d52d0641320e151c8aa163302baf0ff15b737865cc",
+          "original_id": "O11"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "options": [
+        "pico分析",
+        "基因分析",
+        "机制研究",
+        "疾病鉴别"
+      ],
+      "answers": [
+        "pico分析"
+      ],
+      "members": [
+        {
+          "fingerprint": "dce4404b8768e695db0a82c412e48f35e2313a5dad1e424f47f88a4cfdc9e3dd",
+          "original_id": "2026-M14-Q2"
+        },
+        {
+          "fingerprint": "145b3b4d1670687709c758b02b333c3c9b60484e2bfb4a3f05ddb72ca62f90e2",
+          "original_id": "O17"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "options": [
+        "45分35秒",
+        "55分55秒",
+        "60分09秒",
+        "65分43秒"
+      ],
+      "answers": [
+        "55分55秒"
+      ],
+      "members": [
+        {
+          "fingerprint": "c12a97c446aa7e8b6ffd45eb551728dfb30e60c3108409072c1e5f756c45041f",
+          "original_id": "2026-M18-Q1"
+        },
+        {
+          "fingerprint": "b5f3e5ea6eabe2bc3311e9be28f3301ee98a1dba98ed31f5ed0c5981b3f67d5c",
+          "original_id": "O21"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "type": "multi",
+      "options": [
+        "360的图片搜索(https://image.so.com)",
+        "cnki学术图片库(https://image.cnki.net/ai)",
+        "搜狗的图片搜索(https://pic.sogou.com)",
+        "百度的图片搜索(https://image.baidu.com)"
+      ],
+      "answers": [
+        "360的图片搜索(https://image.so.com)",
+        "cnki学术图片库(https://image.cnki.net/ai)",
+        "搜狗的图片搜索(https://pic.sogou.com)",
+        "百度的图片搜索(https://image.baidu.com)"
+      ],
+      "members": [
+        {
+          "fingerprint": "98a4b747a311b26fc45caba26df50555d7189473a6f093dba9f5a12877a1eaf4",
+          "original_id": "2026-M27-Q1"
+        },
+        {
+          "fingerprint": "2863f8477e0bd28756783587f938e7588022e17bb25a3326c71243b0664f3361",
+          "original_id": "O29"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "type": "multi",
+      "options": [
+        "兰州大学图书馆",
+        "山东省图书馆",
+        "重庆大学图书馆",
+        "麻省理工学院图书馆"
+      ],
+      "answers": [
+        "兰州大学图书馆",
+        "山东省图书馆",
+        "重庆大学图书馆",
+        "麻省理工学院图书馆"
+      ],
+      "members": [
+        {
+          "fingerprint": "508cce77585d20ddce4953fd3aabdc3f700bfe2e123edfe09494888d3c639699",
+          "original_id": "2026-M30-Q1"
+        },
+        {
+          "fingerprint": "5b3977c5681090adf669cece1831522f05f1dae022c7efc36b5a84674c88a0cd",
+          "original_id": "O32"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "options": [
+        "publicationdate",
+        "publicationtype",
+        "subjects",
+        "title"
+      ],
+      "answers": [
+        "title"
+      ],
+      "members": [
+        {
+          "fingerprint": "b2559c3951ed1e4673548de3aef6ae092106bd55ef00156788b85c2468516655",
+          "original_id": "2026-M35-Q1"
+        },
+        {
+          "fingerprint": "35464247d74997370d948be484b94c8476114edbc882aeade70e86fc4ee77b25",
+          "original_id": "O37"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "type": "multi",
+      "options": [
+        "pdf压缩",
+        "pdf合并",
+        "pdf拆分",
+        "pdf转word"
+      ],
+      "answers": [
+        "pdf压缩",
+        "pdf合并",
+        "pdf拆分",
+        "pdf转word"
+      ],
+      "members": [
+        {
+          "fingerprint": "77bcffb0221899d3540b9d99474f76e0a4f0d19f68222ddf2f6dd3246a60bfdc",
+          "original_id": "2026-M41-Q1"
+        },
+        {
+          "fingerprint": "9a0f617b3af1550ae90a7a00e704e8d15e3ecdd32ea2e1709dcff943da2f2752",
+          "original_id": "M01"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "options": [
+        "朱晓灿.\"新时代科普类图书出版趋势探析.\"传播与版权,2021(9):29-31+41.",
+        "朱晓灿.新时代科普类图书出版趋势探析.传播与版权[j],2021(9):29-31+41.",
+        "朱晓灿.新时代科普类图书出版趋势探析[j].《传播与版权》,2021(9):29-31+41.",
+        "朱晓灿.新时代科普类图书出版趋势探析[j].传播与版权,2021(9):29-31+41."
+      ],
+      "answers": [
+        "朱晓灿.新时代科普类图书出版趋势探析[j].传播与版权,2021(9):29-31+41."
+      ],
+      "members": [
+        {
+          "fingerprint": "2251368713a719a742fd46320ef0b2e762cc793533637d66ea3c37b729035d0a",
+          "original_id": "2026-M44-Q1"
+        },
+        {
+          "fingerprint": "8bf506e44aee4aa63a38f29023e13359419ea1f14a3cfd291b711b99bf6ff9c4",
+          "original_id": "O46"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "type": "multi",
+      "options": [
+        "从常用学术搜索网站检索添加文献",
+        "导入第三方题录或本地上传",
+        "通过doi添加文献",
+        "通过内置的数据库添加文献"
+      ],
+      "answers": [
+        "从常用学术搜索网站检索添加文献",
+        "导入第三方题录或本地上传",
+        "通过doi添加文献",
+        "通过内置的数据库添加文献"
+      ],
+      "members": [
+        {
+          "fingerprint": "91be1347e6ec0be6165e67c77a864faf1847ac5d3143a66a03aee1572c282020",
+          "original_id": "2026-M46-Q2"
+        },
+        {
+          "fingerprint": "c581124be01b56ba205a27d6ceac9e9adb2605fbc42543051cbc5e867b2a19ae",
+          "original_id": "O49"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "options": [
+        "10-30个",
+        "10个以下",
+        "30-50个",
+        "50个以上"
+      ],
+      "answers": [
+        "50个以上"
+      ],
+      "members": [
+        {
+          "fingerprint": "c98cc748ce93bc765050ab9ae90f008c58668a9245e6bdba555c1e893b516f02",
+          "original_id": "PT1-Q1"
+        },
+        {
+          "fingerprint": "72121ce30641341b15e26ad65ce9f69a5cd0adfdd2b38d5678a5c18e5bce142a",
+          "original_id": "A15"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "type": "single",
+      "options": [
+        "北京邮电大学",
+        "南京邮电大学",
+        "电子科技大学",
+        "西安电子科技大学"
+      ],
+      "answers": [
+        "北京邮电大学"
+      ],
+      "members": [
+        {
+          "fingerprint": "56dcea247ec6665301c6eb35fa15bed190960a265cfa5c0c753267f1a504e3ed",
+          "original_id": "PT1-Q2"
+        },
+        {
+          "fingerprint": "300594a1afaa8e3de84a3df53f144897efdb8b23da92c5d33775070ef7319504",
+          "original_id": "A16"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "9"
+      ],
+      "answers": [
+        "5"
+      ],
+      "members": [
+        {
+          "fingerprint": "c17dc60bc9acc5d75d34db0861e234f3876a5e2f7108d8dad7ec2a25d3e5e7ea",
+          "original_id": "PT1-Q3"
+        },
+        {
+          "fingerprint": "86b305a751aa5dc7047b4d6450fedce6ffdda2755e8edcb7e7f6cf256325048e",
+          "original_id": "A09"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "type": "single",
+      "options": [
+        "vlookup(\"李四\",a:b,2,false)",
+        "vlookup(\"李四\",a:c,3,false)",
+        "vlookup(\"李四\",b:c,2,true)",
+        "vlookup(2,a:c,3,false)"
+      ],
+      "answers": [
+        "vlookup(\"李四\",a:c,3,false)"
+      ],
+      "members": [
+        {
+          "fingerprint": "f6fdd9c811c0be76e7a3cd6a8157eea9f5c2c94dea7327aa8c60595e5cf0d1fb",
+          "original_id": "PT1-Q6"
+        },
+        {
+          "fingerprint": "c332040db45ac3e36651246c7bfadd4d29932b39edf86ff48cdbf2a5ecd5874e",
+          "original_id": "A07"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "options": [
+        "事业单位",
+        "公益机构",
+        "营利性",
+        "非营利性"
+      ],
+      "answers": [
+        "非营利性"
+      ],
+      "members": [
+        {
+          "fingerprint": "7be3d0b9d8243162d5ea263301d365407dd8123f97389f2dbdf88acd04ccf030",
+          "original_id": "PT1-Q8"
+        },
+        {
+          "fingerprint": "81b8a8b1b98345940c0cb140b061c724ce81a784f6408fe1e80bf9f345ab7042",
+          "original_id": "KH-Q002"
+        },
+        {
+          "fingerprint": "b8674b16dedd6926772a9bc165462f918a27377c1e5a9b33841dce9c51be05bc",
+          "original_id": "A10"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "type": "single",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answers": [
+        "2"
+      ],
+      "members": [
+        {
+          "fingerprint": "b05380543996aab908d72438bb27e32bfd8d326c0bd67040fd7a984a432f5a0b",
+          "original_id": "PT1-Q9"
+        },
+        {
+          "fingerprint": "d402ee61fadadbc5c253180e254864493abd6ccb0e5fab31cf5981842125cd1a",
+          "original_id": "A08"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "type": "single",
+      "options": [
+        "12",
+        "147",
+        "231",
+        "79"
+      ],
+      "answers": [
+        "147"
+      ],
+      "members": [
+        {
+          "fingerprint": "e480580a672fbe59d2ce961b015213dd43c61713fb8b9cc94d9889d38804c4ce",
+          "original_id": "PT1-Q10"
+        },
+        {
+          "fingerprint": "78091f572ebf505bf9a32e76273e22c70085e2744b4bba5ff1974c48a0bb1e62",
+          "original_id": "KH-Q001"
+        },
+        {
+          "fingerprint": "e502a1f224c32cf0c8074caf62872e87a2b417fc24a681a236523c6a42312543",
+          "original_id": "A11"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "type": "single",
+      "options": [
+        "曲线图",
+        "柱状图",
+        "点状图",
+        "饼图"
+      ],
+      "answers": [
+        "曲线图"
+      ],
+      "members": [
+        {
+          "fingerprint": "13e7b206ced767cf95699055ed8df22aaa588d22d03c3d17d3ae73ae62782424",
+          "original_id": "PT1-Q11"
+        },
+        {
+          "fingerprint": "c134a45c879ab2c0fc6d56e4b5e2b16093009f3a7513acf0edfbf803952892f9",
+          "original_id": "A20"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "options": [
+        "2013",
+        "2113",
+        "2213",
+        "2361"
+      ],
+      "answers": [
+        "2361"
+      ],
+      "members": [
+        {
+          "fingerprint": "a43890253265ab23d8ac51ffa28d90ebc837facd4a87eb949cf108c4204d944f",
+          "original_id": "PT1-Q12"
+        },
+        {
+          "fingerprint": "da590d1f1ded3212457d20fcfa6c71dfa6fb72d2396b8143ea90cce38ac6d5ea",
+          "original_id": "A14"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "type": "single",
+      "options": [
+        "6141.65",
+        "6141.75",
+        "6141.85",
+        "6141.95"
+      ],
+      "answers": [
+        "6141.95"
+      ],
+      "members": [
+        {
+          "fingerprint": "e85829129845ce8d78318033cd1cff7a750ed7b8a7debfd17b18eba66edda53f",
+          "original_id": "PT1-Q14"
+        },
+        {
+          "fingerprint": "2c7048ff693f527f210a80bc2f6cc6d73e5bf2f655dc848eae5509703c3289da",
+          "original_id": "A12"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "options": [
+        "s1150124020003",
+        "s1150124020004",
+        "s1150124020005",
+        "s1150124020006"
+      ],
+      "answers": [
+        "s1150124020003"
+      ],
+      "members": [
+        {
+          "fingerprint": "3dbce4973a77c23a7d3f45a4046b1a61cc67797b2f4c0c92f6215fd3c1f093f2",
+          "original_id": "PT1-Q15"
+        },
+        {
+          "fingerprint": "8e0118b0dc516e947578581a659b83bcfc46fce445bae2e1794833b029f9bb68",
+          "original_id": "A19"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "type": "single",
+      "options": [
+        "军事理论-综合版",
+        "大学生心理健康",
+        "形势与政策",
+        "艺术与审美"
+      ],
+      "answers": [
+        "军事理论-综合版"
+      ],
+      "members": [
+        {
+          "fingerprint": "4d770cb0f6ea82089c0ac7587905446190bbbbfb6b560adca5b7ae426c605747",
+          "original_id": "PT1-Q20"
+        },
+        {
+          "fingerprint": "a00f81f4b3ee890af75e9de319858b826204cd69e4080b8a45a1dfc36904ab8b",
+          "original_id": "A18"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multi",
+      "options": [
+        "功能使用",
+        "我要举报",
+        "改进建议",
+        "账号/登录"
+      ],
+      "answers": [
+        "功能使用",
+        "我要举报",
+        "账号/登录"
+      ],
+      "members": [
+        {
+          "fingerprint": "0e9d9d579d7f6d2bf3f34e4e9dfbfd1b3b5782f4ce28e3ebdfa84ef6f20cd8a0",
+          "original_id": "PT1-Q22"
+        },
+        {
+          "fingerprint": "8d93f95c4d07710c2bf8fb6fb20aefc39991af466967fcea7c5692ab8000d4b8",
+          "original_id": "A38"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "type": "multi",
+      "options": [
+        "图表制作",
+        "文字撰写",
+        "统计分析",
+        "资料收集"
+      ],
+      "answers": [
+        "图表制作",
+        "统计分析"
+      ],
+      "members": [
+        {
+          "fingerprint": "b0b27bb811dcfdf8f8b1189ea055e80a132c3921c6932ca0ddba190efcabce4b",
+          "original_id": "PT1-Q23"
+        },
+        {
+          "fingerprint": "4dc31669cf95e8d3277a63ca432ae8ff9c3dd3efb0fb63cc9bafae6205da028a",
+          "original_id": "A36"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "type": "multi",
+      "options": [
+        "允许提交后查看已填答卷",
+        "允许提交答卷前预览答卷",
+        "允许断点续答",
+        "控制提交答卷总数"
+      ],
+      "answers": [
+        "允许提交答卷前预览答卷",
+        "控制提交答卷总数"
+      ],
+      "members": [
+        {
+          "fingerprint": "1469c46b635f390c4bf0625ebf78dc3effb0a0abf6e2060c9b975bb894da32d3",
+          "original_id": "PT1-Q24"
+        },
+        {
+          "fingerprint": "0b21cee617ce8afdc8e378c55a592b18b93fbfe6fd265c13a346052a3ea967b9",
+          "original_id": "A33"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "type": "multi",
+      "options": [
+        "中国人民大学",
+        "中国计量大学",
+        "杭州市人才管理服务中心",
+        "浙江大学"
+      ],
+      "answers": [
+        "中国计量大学",
+        "杭州市人才管理服务中心"
+      ],
+      "members": [
+        {
+          "fingerprint": "81b5251d2952f286b55f9d469538f42e45c7e9430378a68f7333c6de348b841a",
+          "original_id": "PT1-Q26"
+        },
+        {
+          "fingerprint": "fe8cc4d2b4827e280e4c401fe532187d68b90c9c6097d3a49e1727e255ce8fd0",
+          "original_id": "A32"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "type": "multi",
+      "options": [
+        "ai公开课",
+        "ai大赛",
+        "ai开发者talk",
+        "开发工具"
+      ],
+      "answers": [
+        "ai公开课",
+        "ai大赛",
+        "ai开发者talk"
+      ],
+      "members": [
+        {
+          "fingerprint": "ea6aeadd41efeb28a48627d76b23514469c9087df5b66364a4b463605579e515",
+          "original_id": "PT1-Q28"
+        },
+        {
+          "fingerprint": "8b829f1ee165ddb14e924160220f7c6814ee4c26c790e2c8ea2a58f5462530ba",
+          "original_id": "A28"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "type": "multi",
+      "options": [
+        "中文",
+        "俄文",
+        "印尼语",
+        "英语"
+      ],
+      "answers": [
+        "中文",
+        "印尼语",
+        "英语"
+      ],
+      "members": [
+        {
+          "fingerprint": "b2a9950a669cd583a68da4ebd0a59d4c387c52823684f1df7637c2d2c334771f",
+          "original_id": "PT1-Q30"
+        },
+        {
+          "fingerprint": "f5d566d865922eaa4eacb5cb71d41621a9ffaec049ca083ea65e51fe83881f7d",
+          "original_id": "KH-Q003"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "type": "multi",
+      "options": [
+        "情绪",
+        "时长",
+        "音乐风格",
+        "音色"
+      ],
+      "answers": [
+        "情绪",
+        "音乐风格",
+        "音色"
+      ],
+      "members": [
+        {
+          "fingerprint": "782d34ccb4919c761551e9c4def60573d79b4d28419c19d4c0404c26d494b89a",
+          "original_id": "PT1-Q33"
+        },
+        {
+          "fingerprint": "caf9e6a44f716d3f8dbf3afd4533ed82453ea47d3cc53f41e3cccb441c15a69c",
+          "original_id": "A40"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "type": "multi",
+      "options": [
+        "地图",
+        "时间轴图",
+        "流程图",
+        "统计组合图"
+      ],
+      "answers": [
+        "时间轴图",
+        "统计组合图"
+      ],
+      "members": [
+        {
+          "fingerprint": "a1adce07944075d1dc8ec017ac361984e291270a7552a1e43118c356052d4b79",
+          "original_id": "PT1-Q34"
+        },
+        {
+          "fingerprint": "8987f603052bf090b0a710cafd00a2ce569451e090e365bea73ac7d3694fe756",
+          "original_id": "A27"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "type": "multi",
+      "options": [
+        "信任与透明",
+        "隐私与安全",
+        "面向科研场景设计",
+        "高质量科研数据"
+      ],
+      "answers": [
+        "信任与透明",
+        "隐私与安全",
+        "面向科研场景设计",
+        "高质量科研数据"
+      ],
+      "members": [
+        {
+          "fingerprint": "17310041994bac0894bf87139c3fd72dc6f1303ffb2e35537cc355df6ac8ec7c",
+          "original_id": "PT1-Q35"
+        },
+        {
+          "fingerprint": "363a2b07967d497461706d0bd125764c498ee6530eba5f18b04e5b1034cbae17",
+          "original_id": "A39"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "type": "multi",
+      "options": [
+        "file:pdf北京大学2025年硕士研究生招生简章site:pku.edu.cn",
+        "filetype:pdf北京大学2025年硕士研究生招生简章site:http://www.pku.edu.cn",
+        "北京大学2025年硕士研究生招生简章file:pdfsite:pku.edu.cn",
+        "北京大学2025年硕士研究生招生简章filetype:pdfsite:pku.edu.cn"
+      ],
+      "answers": [
+        "file:pdf北京大学2025年硕士研究生招生简章site:pku.edu.cn",
+        "filetype:pdf北京大学2025年硕士研究生招生简章site:http://www.pku.edu.cn",
+        "北京大学2025年硕士研究生招生简章file:pdfsite:pku.edu.cn"
+      ],
+      "members": [
+        {
+          "fingerprint": "1ab32f600c0a6002d86677a5d7818ca21fd0631b1580527a79da6b87c3eda20a",
+          "original_id": "PT1-Q36"
+        },
+        {
+          "fingerprint": "031777aabd7855a452da28c764466b9efe64cb713c35df9d4665b9983aa8926d",
+          "original_id": "A21"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "type": "multi",
+      "options": [
+        "全网",
+        "学术",
+        "我的知识库",
+        "知乎"
+      ],
+      "answers": [
+        "全网",
+        "学术",
+        "我的知识库",
+        "知乎"
+      ],
+      "members": [
+        {
+          "fingerprint": "b02914c3ee71e9cbe7011d4626c3f9ad64d286f7d5837935b02d351db1cdcf4f",
+          "original_id": "PT1-Q39"
+        },
+        {
+          "fingerprint": "ec1909ea8fbeaf3097a8a726ab741b638a39d95a38a51723764b57748bac3630",
+          "original_id": "A25"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "type": "multi",
+      "options": [
+        "免版权图库&免扣素材",
+        "在线工具",
+        "在线生成酷炫背景",
+        "平铺纹理素材"
+      ],
+      "answers": [
+        "免版权图库&免扣素材",
+        "在线工具",
+        "在线生成酷炫背景",
+        "平铺纹理素材"
+      ],
+      "members": [
+        {
+          "fingerprint": "d6cdf8e95f1e5f66d0c3d83894c73f6f6146d6c7a6eaa85e8d0ba873a2d7610c",
+          "original_id": "PT1-Q40"
+        },
+        {
+          "fingerprint": "0dd17fb9430d68ecf16452cf6c0070e93a2a7eb49cd5b1c14eba56c772b8a311",
+          "original_id": "A30"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "84cb4dea2b8cd34cdea7ded3cd666599c8b9a83f81e4a250a59c262056cbd035",
+          "original_id": "PT1-Q41"
+        },
+        {
+          "fingerprint": "d669f834e8791d7eab5cd3edc2e8d0edda9f9fe57c80b2c04a13ce41ee835f77",
+          "original_id": "A47"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "ff2502821e7c97305313b80d82d95763217cad7679ab79a71d75424c62621d87",
+          "original_id": "PT1-Q42"
+        },
+        {
+          "fingerprint": "2f515bc4f1240f194990a653e313fc8cf8bf8e87b33d9cc39c8f5cff9add6471",
+          "original_id": "A49"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "043cc6539a380ee21a30f2bb0bfbafc118d9526179cb079fa35c6d398648ddf1",
+          "original_id": "PT1-Q43"
+        },
+        {
+          "fingerprint": "263da0d002b59ae0d8f6704f896beb60b6ba8b0865b5905fca833e8cc6372e71",
+          "original_id": "A43"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "20d22685883a9b11d458a9be015c07f081e8dacd6a5f3a45c39392e9b064fa66",
+          "original_id": "PT1-Q44"
+        },
+        {
+          "fingerprint": "afcba6f83fa45cc99fb9484d873da3a93930df18554548c8d68e56eda9611825",
+          "original_id": "A45"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "ebda806e19fda16f79eb5a06d097346a0be886d0d02beae229b1da72369e00cb",
+          "original_id": "PT1-Q45"
+        },
+        {
+          "fingerprint": "c8a0968eaebdd1ca65974d06f8e23ca6f2d9b7f0fa1580fcf6a9b323352a28e0",
+          "original_id": "A50"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "874eb09a876d264ec325851f4c03c4dff652ced37010f5768746fa7c93e47b2a",
+          "original_id": "PT1-Q46"
+        },
+        {
+          "fingerprint": "5db3b36643d95fe33829f59bea150594677786e4be0e70fb6c8fb2b5523ef3ae",
+          "original_id": "A41"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "e6bf45fa2621c4d54a042e0cf83af21683c833e62346dd989217b66669af3215",
+          "original_id": "PT1-Q47"
+        },
+        {
+          "fingerprint": "b9062c0a983ca2df0cc1b0c8e21b6fa76ca207dca84d0df7ed9430b33f98f198",
+          "original_id": "A42"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "e8f5e83095c58c7300531ce064a88aeef0eda6daecce3c6d67a13500c718cc9b",
+          "original_id": "PT1-Q48"
+        },
+        {
+          "fingerprint": "bfde6395e2dac4775cf36f4049766b8112b814f2c84fa8abace8baa112ac0535",
+          "original_id": "A48"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "0a0f75f05d20e18778a02dd2ad1c6d4583b05b3d3561a3bd86d0c6c598c5c762",
+          "original_id": "PT1-Q49"
+        },
+        {
+          "fingerprint": "ce5935e1aad61a3566f7ee7a5d16be34b36865744e08318bb62df04f1fa469f1",
+          "original_id": "A46"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "4cb9f65116c5c559229863db88e467470a20208e1e286ad730df3d09ff43518a",
+          "original_id": "PT1-Q50"
+        },
+        {
+          "fingerprint": "c47687f36affa2a427a5c055db0edebb2cc9f7ab5a53bc4bce8c4dc8e366a701",
+          "original_id": "A44"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "options": [
+        "中南民族大学化学与材料科学学院",
+        "中南民族大学教育学院",
+        "中南民族大学民族学与社会学学院",
+        "中南民族大学美术学院"
+      ],
+      "answers": [
+        "中南民族大学化学与材料科学学院"
+      ],
+      "members": [
+        {
+          "fingerprint": "95ded675f826d722913826432ebcdd8508277dadd36c1434a8972e802a1a905b",
+          "original_id": "KH-Q004"
+        },
+        {
+          "fingerprint": "6467668b3542956791203fda2532d8ba5ae0cd0a11e807d05b3506975e4a9237",
+          "original_id": "B03"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "options": [
+        "articleattribute",
+        "articletype",
+        "publicationdate",
+        "textavailability"
+      ],
+      "answers": [
+        "articletype"
+      ],
+      "members": [
+        {
+          "fingerprint": "cc1135bcb422eb458c5f0c8e5cc847c5b19cbd4ac6e27b02b7d0063aee6b2df0",
+          "original_id": "KH-Q005"
+        },
+        {
+          "fingerprint": "6c95604bafed44dd952f51b8799f6e6a0605f94bdcb5c82ca99fff14499381da",
+          "original_id": "B15"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "options": [
+        "arxiv",
+        "oxfordacademic",
+        "science",
+        "springernaturelink"
+      ],
+      "answers": [
+        "springernaturelink"
+      ],
+      "members": [
+        {
+          "fingerprint": "157be9b250c01c478d73e316cca3ef1f53b05a118b5752095d0103e31a5c12ef",
+          "original_id": "KH-Q007"
+        },
+        {
+          "fingerprint": "11011ecdddba3d57b6690f8b79bce677c32f162059d3a37a1e0991c19f52bf85",
+          "original_id": "B09"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "options": [
+        "上海市",
+        "北京市",
+        "广东省",
+        "江苏省"
+      ],
+      "answers": [
+        "广东省"
+      ],
+      "members": [
+        {
+          "fingerprint": "c76ff5f42f0a84b36b28b252dc20651d8b8f65fea01e8512366e16ba4ef709e8",
+          "original_id": "KH-Q008"
+        },
+        {
+          "fingerprint": "41b9cd17af329070c2c0b284dd9e9ccbd7240680ce74559d1fbce4105f3a0f3b",
+          "original_id": "B19"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "options": [
+        "123",
+        "345",
+        "567",
+        "789"
+      ],
+      "answers": [
+        "789"
+      ],
+      "members": [
+        {
+          "fingerprint": "ca4c9a2a5a7ad378538ee29de1e78d1e1c7d1eff122eaa46f98f982edcaa1f35",
+          "original_id": "KH-Q009"
+        },
+        {
+          "fingerprint": "e6055b26d2b85cb168c8ce420b6d2926a2ec74167a16838a1ce7365348787912",
+          "original_id": "B10"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "type": "single",
+      "options": [
+        "10",
+        "4",
+        "5",
+        "6"
+      ],
+      "answers": [
+        "10"
+      ],
+      "members": [
+        {
+          "fingerprint": "b283503de5cb5f5f16d2086022b543ee255481fb15ba47f575c3be57f50b0d37",
+          "original_id": "KH-Q010"
+        },
+        {
+          "fingerprint": "445a4cce00b8e7457ce406b4d84f3507a2c693f485ac379f38f8d3d809ab710b",
+          "original_id": "B17"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "type": "single",
+      "options": [
+        "专科专题目录",
+        "史志目录",
+        "四库全书系列",
+        "地理系统"
+      ],
+      "answers": [
+        "地理系统"
+      ],
+      "members": [
+        {
+          "fingerprint": "28966e4826fe7829100fe294cdbcf07344f35d3681a8f9f06d90d93ba01d8010",
+          "original_id": "KH-Q012"
+        },
+        {
+          "fingerprint": "0f1cd94e969bb6d827c449ad5c7f7d742e9c97aba353acc355a2bb8a634c725f",
+          "original_id": "B06"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "type": "single",
+      "options": [
+        "13",
+        "26",
+        "38",
+        "77"
+      ],
+      "answers": [
+        "13"
+      ],
+      "members": [
+        {
+          "fingerprint": "44e2a709438dab7e5ea9255a7256e37f1ffc8b21fbcc87223c19f6e5a454c167",
+          "original_id": "KH-Q013"
+        },
+        {
+          "fingerprint": "803ceec18a4bb105f25507127f16e712d896ff0162e9042200168f8cbcabc422",
+          "original_id": "B01"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "options": [
+        "170",
+        "189",
+        "201",
+        "222"
+      ],
+      "answers": [
+        "189"
+      ],
+      "members": [
+        {
+          "fingerprint": "2fafc2863884798d6485243326c653f9789856e838bc0c1072465fc6c67b6cbb",
+          "original_id": "KH-Q014"
+        },
+        {
+          "fingerprint": "cb466a5d2d59ae7db1c3bb1eddf6698c13cc2013fd53564629e92d1939ba56f5",
+          "original_id": "B12"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "type": "single",
+      "options": [
+        "学",
+        "属",
+        "技",
+        "科"
+      ],
+      "answers": [
+        "技"
+      ],
+      "members": [
+        {
+          "fingerprint": "4ff3978696525e4a27d695f1818cb2e7253c0bb58cc06f5dd8ca56d2a778b6e2",
+          "original_id": "KH-Q015"
+        },
+        {
+          "fingerprint": "16fb7c93096971f614b92a9fd824f3a3da587faa6385ab8db9045ffbc33cbda1",
+          "original_id": "B08"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "type": "single",
+      "options": [
+        "为截取的图片打马赛克",
+        "在截取的图片上添加文本",
+        "截长图",
+        "把截取的图片钉在桌面上"
+      ],
+      "answers": [
+        "在截取的图片上添加文本"
+      ],
+      "members": [
+        {
+          "fingerprint": "75109953181963d232caf7046f91963fa75c3561ef891ea6d6222038a79d4222",
+          "original_id": "KH-Q016"
+        },
+        {
+          "fingerprint": "cfe28b2b2fa40d53ae0f33be18c88b164dfd9a184a0bd319c6193622b2bc303f",
+          "original_id": "B11"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "type": "single",
+      "options": [
+        "128",
+        "35",
+        "4",
+        "77"
+      ],
+      "answers": [
+        "4"
+      ],
+      "members": [
+        {
+          "fingerprint": "f85c592e065b3944d732d32a237a1602db4b8af2c217373d309ec4b962780454",
+          "original_id": "KH-Q017"
+        },
+        {
+          "fingerprint": "d48a7d96459fa4b26ea1b96df4d32359dfc9f107635d9e0407eff7bdd55435d3",
+          "original_id": "B20"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "type": "single",
+      "options": [
+        "^#",
+        "^m",
+        "^p",
+        "^t"
+      ],
+      "answers": [
+        "^m"
+      ],
+      "members": [
+        {
+          "fingerprint": "58b8a5feddfc2977ddc274b7c099cbb1b1f5226a230e52935755b46b1300130e",
+          "original_id": "KH-Q018"
+        },
+        {
+          "fingerprint": "c9eb2b1abde6ae71f02feb50ff451a670f26d52f8f855f30c68d08954f7ca34e",
+          "original_id": "B14"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "type": "single",
+      "options": [
+        "24",
+        "34",
+        "44",
+        "54"
+      ],
+      "answers": [
+        "44"
+      ],
+      "members": [
+        {
+          "fingerprint": "007915ed890170e4612e81fcafc34a921e909229441b96765704795834eccb4c",
+          "original_id": "KH-Q019"
+        },
+        {
+          "fingerprint": "8149ba1144de5e9f6d95f13fb2b43a00caa09c553ac66ea658949f7ae759efbb",
+          "original_id": "B16"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answers": [
+        "4"
+      ],
+      "members": [
+        {
+          "fingerprint": "78d43fd909bfdadebc5adcf2d2fc56689b55e5303bc8c95afc91211e7aec6e4d",
+          "original_id": "KH-Q020"
+        },
+        {
+          "fingerprint": "85c6b6b6fc1535fa5ab0229d9bce40c447f26556d0b38f20025203e8256c9716",
+          "original_id": "B02"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "type": "single",
+      "options": [
+        "中国电化教育",
+        "电化教育研究",
+        "科研管理",
+        "自然辩证法研究"
+      ],
+      "answers": [
+        "电化教育研究"
+      ],
+      "members": [
+        {
+          "fingerprint": "c2a5ffb7ccc33241a2af221cc9619cb7155a1c130c926a7aa0a964e4433b9fcb",
+          "original_id": "KH-Q022"
+        },
+        {
+          "fingerprint": "1cd92eba113ac3225f487fc134c194ff44e1b05ffb193cf468c16a7292ee5ba1",
+          "original_id": "B05"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "type": "single",
+      "options": [
+        "\"heartfailure\"[title]",
+        "heart[ti]andfailure[ti]",
+        "heartfailure[meshterms]",
+        "ti=heartfailure"
+      ],
+      "answers": [
+        "\"heartfailure\"[title]"
+      ],
+      "members": [
+        {
+          "fingerprint": "3e878fdbd53aa86a0ccda6d948689da9364b05a439c9dc621bd49dd7fc09355a",
+          "original_id": "KH-Q023"
+        },
+        {
+          "fingerprint": "5528e244e1f5184260bc3c09f238db09a38c14127fa27241d0f5dbf325de1cb5",
+          "original_id": "B07"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "type": "multi",
+      "options": [
+        "pdf压缩",
+        "pdf去水印",
+        "pdf合并",
+        "pdf拆分"
+      ],
+      "answers": [
+        "pdf压缩",
+        "pdf合并",
+        "pdf拆分"
+      ],
+      "members": [
+        {
+          "fingerprint": "7f5fa83678f287540e2065eea4cece2218a933022ca3dacc7496f67b0ab8ec84",
+          "original_id": "KH-Q024"
+        },
+        {
+          "fingerprint": "7e8ba96b9dbf73c95a51d5b0420e637353c84a9fc43099c94a69f8e82d373fb4",
+          "original_id": "M01-platform"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "type": "multi",
+      "options": [
+        "ai智能对比",
+        "上下对比阅读",
+        "实时记录想法",
+        "左右对照阅读"
+      ],
+      "answers": [
+        "ai智能对比",
+        "实时记录想法",
+        "左右对照阅读"
+      ],
+      "members": [
+        {
+          "fingerprint": "6dfc28b6c651666ae5d829282ed9e4e0f4ff092416e57b3c5db703454f63354d",
+          "original_id": "KH-Q025"
+        },
+        {
+          "fingerprint": "131546d6e062a40d44abbcc11ad657e2ef4c77ce8337216c7c1f2214917fab40",
+          "original_id": "B27"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "type": "multi",
+      "options": [
+        "if",
+        "jcr分区",
+        "审稿周期",
+        "推荐依据"
+      ],
+      "answers": [
+        "if",
+        "jcr分区",
+        "审稿周期"
+      ],
+      "members": [
+        {
+          "fingerprint": "8ed690e4351c50cefc7a0105839862f61af8fe232958b992b1b0dbce700c41ca",
+          "original_id": "KH-Q026"
+        },
+        {
+          "fingerprint": "fb819de783575e160862ffe6d7ff7441b19439515c9db6984af18bcfda1c6706",
+          "original_id": "B40"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "type": "multi",
+      "options": [
+        "concatenate(left(a1,3),\"-\",mid(a1,4,3),\"-\",right(a1,3))",
+        "left(a1,3)&\"-\"&mid(a1,4,3)&\"-\"&right(a1,3)",
+        "replace(a1,3,0,\"-\")&replace(a1,6,0,\"-\")",
+        "text(a1,\"###-###-###\")"
+      ],
+      "answers": [
+        "concatenate(left(a1,3),\"-\",mid(a1,4,3),\"-\",right(a1,3))",
+        "left(a1,3)&\"-\"&mid(a1,4,3)&\"-\"&right(a1,3)",
+        "text(a1,\"###-###-###\")"
+      ],
+      "members": [
+        {
+          "fingerprint": "f1ecfadd7630620760ebd558e6dcb6fbf4a0f63a9c89de6641d3cf540bb243ed",
+          "original_id": "KH-Q027"
+        },
+        {
+          "fingerprint": "98f734a4fc5d6c533a0726dd24c1e5d4f9b64484bad43e298ffa1c3edca2bca1",
+          "original_id": "B37"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "type": "multi",
+      "options": [
+        "四川省\"华东师范大学\"搜索指数低于\"上海交通大学\"",
+        "广东省搜索指数最高的是\"复旦大学\"",
+        "江苏省搜索指数最高的是\"上海交通大学\"",
+        "河南省搜索指数最低的是\"复旦大学\""
+      ],
+      "answers": [
+        "四川省\"华东师范大学\"搜索指数低于\"上海交通大学\"",
+        "江苏省搜索指数最高的是\"上海交通大学\"",
+        "河南省搜索指数最低的是\"复旦大学\""
+      ],
+      "members": [
+        {
+          "fingerprint": "47f91efb8b574d2273cb90dc83e4e59fa6dafc14c1c4b59255d3ba57da6edefa",
+          "original_id": "KH-Q028"
+        },
+        {
+          "fingerprint": "4c9b89aea14436cc050414821439b58b66885ff2b605206bf51949ba080bf606",
+          "original_id": "B33"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "type": "multi",
+      "options": [
+        "2023年出版",
+        "pdf全文共23页",
+        "共有55篇参考文献",
+        "有15位作者"
+      ],
+      "answers": [
+        "2023年出版",
+        "pdf全文共23页",
+        "有15位作者"
+      ],
+      "members": [
+        {
+          "fingerprint": "2b9473399ed2f6034b08e2421970577e6fc808848e98fca45093b96dac2fae00",
+          "original_id": "KH-Q031"
+        },
+        {
+          "fingerprint": "19d5b6b86f715669aa22a423ac2243fcfa808a9b964d0daaae19e5ec195e24e4",
+          "original_id": "B36"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "type": "multi",
+      "options": [
+        "ai修图",
+        "ai编程",
+        "大模型",
+        "智能体"
+      ],
+      "answers": [
+        "ai修图",
+        "大模型",
+        "智能体"
+      ],
+      "members": [
+        {
+          "fingerprint": "f50e0785b8d4abdb094ce3d41d03cd9cb2830b848aadfaec0165a67b7026140b",
+          "original_id": "KH-Q032"
+        },
+        {
+          "fingerprint": "b86734d0a4a952ee822ef9fe9b81c177c694fb51a93c130fcf611f9a1c0eadfb",
+          "original_id": "B29"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "type": "multi",
+      "options": [
+        "东北师范大学",
+        "华中师范大学",
+        "南京师范大学",
+        "西北师范大学"
+      ],
+      "answers": [
+        "东北师范大学",
+        "华中师范大学"
+      ],
+      "members": [
+        {
+          "fingerprint": "6f03a7128caad37b906649a2dfa35f04b14ad74b9e0a5190303bceba78070abc",
+          "original_id": "KH-Q033"
+        },
+        {
+          "fingerprint": "a691ec3b438bd872223348335fd1ff4fac816c1b351914c7b9ba94209db1b812",
+          "original_id": "B25"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "type": "multi",
+      "options": [
+        "doc",
+        "jpg",
+        "ppt",
+        "xls"
+      ],
+      "answers": [
+        "doc",
+        "ppt",
+        "xls"
+      ],
+      "members": [
+        {
+          "fingerprint": "8d6f5d80fa621cbd2991ba5d06cb0bf28d4fffce3905717bd30b99827be6bb4c",
+          "original_id": "KH-Q034"
+        },
+        {
+          "fingerprint": "c8c3b6ae6049733a1cf83fe36cde43772cc5f84f23c212b6802baf58f50a1541",
+          "original_id": "B28"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "type": "multi",
+      "options": [
+        "东校园",
+        "南校园",
+        "深圳校区",
+        "珠海校区"
+      ],
+      "answers": [
+        "东校园",
+        "南校园",
+        "深圳校区"
+      ],
+      "members": [
+        {
+          "fingerprint": "1035864ed0699c470d7f41ba8cb45c8336339d4298caff3c6c3b0693afaf718c",
+          "original_id": "KH-Q035"
+        },
+        {
+          "fingerprint": "46a565cef445d74d983b146a8dfb76ccd9bc88e7a8a416314f414080d622778e",
+          "original_id": "B39"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "type": "multi",
+      "options": [
+        "ai介绍",
+        "ai慕课",
+        "ai新闻资讯",
+        "genai工具"
+      ],
+      "answers": [
+        "ai介绍",
+        "ai新闻资讯",
+        "genai工具"
+      ],
+      "members": [
+        {
+          "fingerprint": "3079cd82ea5a352a5ff6385cb3f85e1307fd3918ed236cfbc3a19d7e3230f506",
+          "original_id": "KH-Q036"
+        },
+        {
+          "fingerprint": "4ff06df2ed216960f4e2ccabde3e2ee1c25a4fdb8e13b652e87fce3a436ea338",
+          "original_id": "B35"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "type": "multi",
+      "options": [
+        "个人版",
+        "企业尊享版",
+        "企业旗舰版",
+        "企业标准版"
+      ],
+      "answers": [
+        "企业尊享版",
+        "企业旗舰版",
+        "企业标准版"
+      ],
+      "members": [
+        {
+          "fingerprint": "cc78eabf9672d8f8131a83c03acd005d7d06422cb3cc734c92dc816095c4623f",
+          "original_id": "KH-Q038"
+        },
+        {
+          "fingerprint": "3e37ba74699ebae914aa3eea3d1dce9f02379ced3560eba6381a696ecf26b385",
+          "original_id": "B30"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "multi",
+      "options": [
+        "3d地球",
+        "3d折线图",
+        "3d散点图",
+        "3d柱状图"
+      ],
+      "answers": [
+        "3d地球",
+        "3d折线图",
+        "3d散点图",
+        "3d柱状图"
+      ],
+      "members": [
+        {
+          "fingerprint": "5c862663a4292d55a02e7d8c3f9c7f5ce3127900605c5eae84ed024b75400f38",
+          "original_id": "KH-Q039"
+        },
+        {
+          "fingerprint": "6bf82c95ef0398ab1398855200f111dca9ed5632b8b4e05ad95d2bfa7ef3debd",
+          "original_id": "B38"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "type": "multi",
+      "options": [
+        "艺术创作方法",
+        "艺术基础",
+        "艺术工作者",
+        "艺术美学"
+      ],
+      "answers": [
+        "艺术创作方法",
+        "艺术工作者",
+        "艺术美学"
+      ],
+      "members": [
+        {
+          "fingerprint": "7d493d4be057ae61fc46503e8bdddd0ff9a59aef61324424cc79c8b86dd02f0c",
+          "original_id": "KH-Q040"
+        },
+        {
+          "fingerprint": "64b412ac1257b1e6fa6a1121dc57e264fbbc21fa4f7a1572d8ef815cccc361b0",
+          "original_id": "B24"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "type": "multi",
+      "options": [
+        "使用cnkiai深度研究回答模式",
+        "对生成内容要点进行可信验证",
+        "对生成内容进行观点网络挖掘",
+        "采用ai生成内容中置信度较高的观点"
+      ],
+      "answers": [
+        "使用cnkiai深度研究回答模式",
+        "对生成内容要点进行可信验证",
+        "对生成内容进行观点网络挖掘"
+      ],
+      "members": [
+        {
+          "fingerprint": "405b4d4f7843b679c77a9bec322cff51042dbb6014a67d70d5c05a6a6116228f",
+          "original_id": "KH-Q041"
+        },
+        {
+          "fingerprint": "6c1e377aa4131b4ba67200aa5db1610a494da8d094e7001714d69ab615ebbd2b",
+          "original_id": "B26"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "type": "multi",
+      "options": [
+        "发布单位",
+        "发布日期",
+        "标准状态",
+        "起草单位"
+      ],
+      "answers": [
+        "发布日期",
+        "标准状态"
+      ],
+      "members": [
+        {
+          "fingerprint": "3d113535cb0bc64b9da8a8e24d113169e347f393bd00ce6f120726b3d298c9e5",
+          "original_id": "KH-Q042"
+        },
+        {
+          "fingerprint": "ef0cf16f520c9048b4a927770ff7887787d8d542c500fa4a0fb41e98cd5a7f40",
+          "original_id": "B32"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "type": "multi",
+      "options": [
+        "元数据上传",
+        "图片链接",
+        "拖拽图片",
+        "粘贴截图"
+      ],
+      "answers": [
+        "图片链接",
+        "拖拽图片",
+        "粘贴截图"
+      ],
+      "members": [
+        {
+          "fingerprint": "28ae117f7e40431dbc651d030f7aca703a098018f9ce554a036b649fa19df35c",
+          "original_id": "KH-Q043"
+        },
+        {
+          "fingerprint": "56b4b77f22846d92fc50c7a7dc51c9f1e82cc95eec0de16d61f1f31219feb92b",
+          "original_id": "B31"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "5a0fd714b0c5b238757b9cc491ec6a1498ab033b4a35647704528e0fd0495c2b",
+          "original_id": "KH-Q044"
+        },
+        {
+          "fingerprint": "43c1e5a19f73a27a8736629064db599ebe51d49f13f15174f08d9d03d4443189",
+          "original_id": "B47"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "acf4cbe05d49ed1350815e4f5b111790eda5b95d87a12620a1f2348ba51d369a",
+          "original_id": "KH-Q045"
+        },
+        {
+          "fingerprint": "88cd023de5611b00f5042f44256f97e1107defc5afd0add0b357b6a492698ccd",
+          "original_id": "B41"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "010942440eb165117d0f7f3ded287f7bcc7060af2f49b9da489beb79ff2964c2",
+          "original_id": "KH-Q046"
+        },
+        {
+          "fingerprint": "82d5b465d2f7d271e33971fc1725d8247d69052ee65fb3aa6fda46169ea88adf",
+          "original_id": "B46"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "96765f66d06c349b46bdb3e987d481246ed65dc23e120eab10a6ad50deb99260",
+          "original_id": "KH-Q048"
+        },
+        {
+          "fingerprint": "0d03deb126b6ba6de01e47a1805b162e7f1f920d903e68d13e3084940e17ccaf",
+          "original_id": "B45"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "909f1bf522768d642f51e2a1dad8deef86b659d6941a029438c3e4603c738a25",
+          "original_id": "KH-Q049"
+        },
+        {
+          "fingerprint": "f19a4f7d6098298c3c57f9d718ffaa24692d52352f8e1cbc56fb22e58d4865bc",
+          "original_id": "B50"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "9b0cd3ec0530f042b48e783ca5089e4d23d5f95391204144131795d6c350bda3",
+          "original_id": "KH-Q051"
+        },
+        {
+          "fingerprint": "437863a42bc6cc0e99c79be3448e0511e705770504bda865caf086a6658bac02",
+          "original_id": "B44"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "67ef08a7f76616a6f235b0320a3ebe2bbcb5f68282b981055d3a2869ccd1d3b5",
+          "original_id": "KH-Q052"
+        },
+        {
+          "fingerprint": "d45aec42870c7a27de49e13d421293ff94d9c6f1bc32850aa9ce87613b3d8e7e",
+          "original_id": "B48"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "dc8cb0ad6925e1b5142ca3f0389abda2857be3f9ed83346d45688a0a5f84a4a9",
+          "original_id": "KH-Q053"
+        },
+        {
+          "fingerprint": "f1f2ad5d68eec6b6170f2f91e40a9a129f362cc6cd6b9590129789735697dc28",
+          "original_id": "B49"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "type": "single",
+      "options": [
+        "300",
+        "563",
+        "789",
+        "856"
+      ],
+      "answers": [
+        "300"
+      ],
+      "members": [
+        {
+          "fingerprint": "32ddde50af378f336b791cf932df8edf1d5c0e2b830697668ed12088eb78b06c",
+          "original_id": "KH-Q054"
+        },
+        {
+          "fingerprint": "00daff116eddacd53c45fa9568491d13e95dc8ab50d3c9526c24f44293832694",
+          "original_id": "C16"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "type": "single",
+      "options": [
+        "111",
+        "2",
+        "369",
+        "387"
+      ],
+      "answers": [
+        "2"
+      ],
+      "members": [
+        {
+          "fingerprint": "8f7d00424d12978dc9a19eb8003b1543992b257c2dc42d075d5e8b2defb7965f",
+          "original_id": "KH-Q055"
+        },
+        {
+          "fingerprint": "c7d2e38a5959e816bedfbb6e21f9e07c166f94d27fe31af7a20e0060768c3d8e",
+          "original_id": "C17"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "type": "single",
+      "options": [
+        "中信建投证券股份有限公司",
+        "中信证券股份有限公司",
+        "中国银河证券股份有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "answers": [
+        "中信证券股份有限公司"
+      ],
+      "members": [
+        {
+          "fingerprint": "13b7c51e0ac5cd2020c8d599b71a12fc9f13271f93e16411a9dec96de39730cf",
+          "original_id": "KH-Q056"
+        },
+        {
+          "fingerprint": "7086eff15eb9fbdba4c80236e4fd69e3f3584ea56d19024975768af2bf3c4f49",
+          "original_id": "C12"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "type": "single",
+      "options": [
+        "1497",
+        "1575",
+        "1742",
+        "1832"
+      ],
+      "answers": [
+        "1497"
+      ],
+      "members": [
+        {
+          "fingerprint": "b432b2c0c12da03a06a1ad4abe687907d34512cd0226f405e2c7240428d9389a",
+          "original_id": "KH-Q060"
+        },
+        {
+          "fingerprint": "c130baa1d4974361ff2744d7898b4b670b634e9b345bee014472b388cad24d8a",
+          "original_id": "C06"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "type": "single",
+      "options": [
+        "华南理工大学",
+        "南方医科大学",
+        "南方科技大学",
+        "深圳大学"
+      ],
+      "answers": [
+        "深圳大学"
+      ],
+      "members": [
+        {
+          "fingerprint": "21ad75eabb70f300a7ab210c431dd0a2dfe23615e566ddf58e0383278999923c",
+          "original_id": "KH-Q062"
+        },
+        {
+          "fingerprint": "c9b975c1e3d98e6892303eaa8b93fe9fef130ce9061273e5c640877b4af36883",
+          "original_id": "C11"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "type": "single",
+      "options": [
+        "200",
+        "300",
+        "400",
+        "500"
+      ],
+      "answers": [
+        "300"
+      ],
+      "members": [
+        {
+          "fingerprint": "08ccd26e52a45a6c4d4dec827e13d09a5f545aff74a0447770cd45a3b839d427",
+          "original_id": "KH-Q063"
+        },
+        {
+          "fingerprint": "9dc66289d4cb9bd99997be88e66472b22ebcf0a2ff067063d499b1a875710188",
+          "original_id": "C01"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "type": "single",
+      "options": [
+        "openaccesscontent数量少于600篇",
+        "文献类型为books的数量少于400篇",
+        "文献类型为journals的数量超过1300篇",
+        "检索结果数量少于1700篇"
+      ],
+      "answers": [
+        "文献类型为journals的数量超过1300篇"
+      ],
+      "members": [
+        {
+          "fingerprint": "c48525efbe5238c8e4fdae83e6c2dfa6d45c4e7a772037c17d8ce6d88595a45f",
+          "original_id": "KH-Q066"
+        },
+        {
+          "fingerprint": "04f64cfe5a845a17cda6ef71ec6a4cab6336900c46f4afc6e57c23d1de61dcad",
+          "original_id": "C13"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "type": "single",
+      "options": [
+        "15s",
+        "30s",
+        "3s",
+        "5s"
+      ],
+      "answers": [
+        "5s"
+      ],
+      "members": [
+        {
+          "fingerprint": "fc7649cc581257b4e797777b1af94633ce326aec96841797a43868e655069987",
+          "original_id": "KH-Q070"
+        },
+        {
+          "fingerprint": "0e32f0dec108292ff7f42a299225d8dc4406d6c64d3673cb9fdf5aa0f265b83a",
+          "original_id": "C20"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "type": "single",
+      "options": [
+        "这是一顶设计专利",
+        "这是一项发明专利",
+        "这是一项外观设计专利",
+        "这是一项实用新型专利"
+      ],
+      "answers": [
+        "这是一项发明专利"
+      ],
+      "members": [
+        {
+          "fingerprint": "e352f63ebf9a837a01fa6811dc0535add248a0247bc1afbe39b6ba30be4fefef",
+          "original_id": "KH-Q071"
+        },
+        {
+          "fingerprint": "ebe6918d4803887bc639f0def32470d4f7051df9b4d71658638d1b84e6e5a33d",
+          "original_id": "C07"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "type": "single",
+      "options": [
+        "openaigpts",
+        "生成式人工智能使用的技术",
+        "生成式人工智能内容的标识",
+        "生成式人工智能在教育领域的规范"
+      ],
+      "answers": [
+        "生成式人工智能使用的技术"
+      ],
+      "members": [
+        {
+          "fingerprint": "3fa5cfdf6b38dc3f301aeaa59031bf161d4c6ee8701c721668577ea8314813a8",
+          "original_id": "KH-Q072"
+        },
+        {
+          "fingerprint": "f59cb0dd6f3694203ffef07a80789a37cd5d55982fc1c76e917e6305d8829bca",
+          "original_id": "C08"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "type": "multi",
+      "options": [
+        "张勤修",
+        "张罗",
+        "王燕",
+        "程雷"
+      ],
+      "answers": [
+        "张勤修",
+        "张罗",
+        "程雷"
+      ],
+      "members": [
+        {
+          "fingerprint": "b53f2f41e28a0d81b80273b267dc82c2dac6375b7953913cb19854a5b773c922",
+          "original_id": "KH-Q074"
+        },
+        {
+          "fingerprint": "03dd03edf2e0d53efece38f857a5704bc6f5113ad44407a9999fcaacbb274258",
+          "original_id": "C22"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "type": "multi",
+      "options": [
+        "删除",
+        "压缩",
+        "替换",
+        "重新上传"
+      ],
+      "answers": [
+        "删除",
+        "替换"
+      ],
+      "members": [
+        {
+          "fingerprint": "5762b9350207cff2ef7c929de9b667c1a7306fd4e02b7ef2d5b128db7b4890bc",
+          "original_id": "KH-Q075"
+        },
+        {
+          "fingerprint": "9364b6aeaa23acffe61ca4a965bc03df778b9dbb2722d90f758ef31f5ad9729a",
+          "original_id": "C34"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "type": "multi",
+      "options": [
+        "吉林",
+        "天津",
+        "河北",
+        "辽宁"
+      ],
+      "answers": [
+        "天津",
+        "河北",
+        "辽宁"
+      ],
+      "members": [
+        {
+          "fingerprint": "b32a38a8339642e20703c8b09e93aedaba502da16e71ca3d5166ead9db051c22",
+          "original_id": "KH-Q076"
+        },
+        {
+          "fingerprint": "7dee4c848be10fe67cdb6628e34738546a50e873f30e7b011740109d26c80d47",
+          "original_id": "C26"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "type": "multi",
+      "options": [
+        "儒家经学",
+        "庄子道学",
+        "老子道学",
+        "韩非子法学"
+      ],
+      "answers": [
+        "儒家经学",
+        "庄子道学",
+        "老子道学"
+      ],
+      "members": [
+        {
+          "fingerprint": "007d4223fe03bd9e004e1fc9045ec4b1f9b0545cdb59a9e86b4156b8d8990db9",
+          "original_id": "KH-Q081"
+        },
+        {
+          "fingerprint": "d43d6dd7852e18c8cbedaea5b3cb2439f4f1607eb2936f84db05c92d926122bc",
+          "original_id": "C30"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "type": "multi",
+      "options": [
+        "angelaychang",
+        "deantjamison.",
+        "stephentollman",
+        "susanhorton,"
+      ],
+      "answers": [
+        "angelaychang",
+        "deantjamison.",
+        "susanhorton,"
+      ],
+      "members": [
+        {
+          "fingerprint": "b0f041151600c03dda033f78a768fd9ebd97fbae194af78e979f4442d013fd7e",
+          "original_id": "KH-Q084"
+        },
+        {
+          "fingerprint": "19e6640e64b61edbb51ca9d34dd962cd812859321839fbea553e5183072d8c6e",
+          "original_id": "C29"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "type": "multi",
+      "options": [
+        "aigc职场实战",
+        "tensorflow框架及常用库",
+        "机器学习入门",
+        "机器学习实战"
+      ],
+      "answers": [
+        "tensorflow框架及常用库",
+        "机器学习入门",
+        "机器学习实战"
+      ],
+      "members": [
+        {
+          "fingerprint": "5ec51b2793a840d93777dfe4228c37863d3553a458065753303aa99adf9dd5dc",
+          "original_id": "KH-Q087"
+        },
+        {
+          "fingerprint": "02771d77cb76ff8b53fa9f23dc099128c6c1f3b7d5284712949e14778d6fe3c1",
+          "original_id": "C31"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "type": "multi",
+      "options": [
+        "定题评测",
+        "摘要打磨",
+        "研究态势分析",
+        "选题推荐"
+      ],
+      "answers": [
+        "定题评测",
+        "研究态势分析",
+        "选题推荐"
+      ],
+      "members": [
+        {
+          "fingerprint": "ec95b65483ada3f4808b7c371b2d3534061ee5b845ee01742a130a8a0f15825f",
+          "original_id": "KH-Q089"
+        },
+        {
+          "fingerprint": "afb3ef62541c15da15587f44b84236948d76485ae6807414be0404adbb4562a5",
+          "original_id": "C24"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "type": "multi",
+      "options": [
+        "a区理工密集书库",
+        "b区理工密集书库",
+        "人文社科图书馆",
+        "社科阅览室"
+      ],
+      "answers": [
+        "a区理工密集书库",
+        "人文社科图书馆",
+        "社科阅览室"
+      ],
+      "members": [
+        {
+          "fingerprint": "b3008fd6a378b336ad9ea78fb0987acf0091d084ab70455ff37f3441892fbb9c",
+          "original_id": "KH-Q090"
+        },
+        {
+          "fingerprint": "3d88f7b7383b75f427c390b638b83f8c1e4e49ea6507ae00ab49727c628cde4d",
+          "original_id": "C35"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "type": "multi",
+      "options": [
+        "基于u--net框架的医学图像分割若干关键问题研究",
+        "基于卷积神经网络的胃镜图像理解中若干关键问题研究与实践",
+        "基于深度学习的医学图像分割方法研究",
+        "基于深度神经网络的肿瘤图像分析与处理"
+      ],
+      "answers": [
+        "基于深度学习的医学图像分割方法研究",
+        "基于深度神经网络的肿瘤图像分析与处理"
+      ],
+      "members": [
+        {
+          "fingerprint": "fd534821918b257963da492be674bab9b492164e634e8790b37bbcda56c34dec",
+          "original_id": "KH-Q092"
+        },
+        {
+          "fingerprint": "b6e83d73e8379923b3078b6894ffae12237a7d1f4eb54a4a3f62e62e4ca9019a",
+          "original_id": "C32"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "type": "multi",
+      "options": [
+        "应用计算学",
+        "计算机工程",
+        "计算机工程与应用",
+        "计算机应用研究"
+      ],
+      "answers": [
+        "计算机工程",
+        "计算机工程与应用",
+        "计算机应用研究"
+      ],
+      "members": [
+        {
+          "fingerprint": "53386e75d51d79fee6a320205d5b5cc54ffb425c3cc7e23f71e69d6a9e2675ea",
+          "original_id": "KH-Q093"
+        },
+        {
+          "fingerprint": "153a2246348c2a7a6e74629640332191f8d4f9c2545924b80efc7fb4ca778606",
+          "original_id": "C25"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "cc8d1197f002d175ac5d5ee483491d7f9f9d9341ba1d771e8d5eb05eb1a3a489",
+          "original_id": "KH-Q094"
+        },
+        {
+          "fingerprint": "f00f0b28ed54085ce40f269d99924f02d9733ee358e213caa9e9c63d6f51e0b0",
+          "original_id": "C47"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "e20f34f485f7518edb9ccf79cfc4e891da3299a2b423595a2fa53eddc5510335",
+          "original_id": "KH-Q095"
+        },
+        {
+          "fingerprint": "1077e623576775bf5d50146429f74a577fa0e302f69f0f9ed0a6cc6d0edad49e",
+          "original_id": "C44"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "03815b7e2979730782b5e389797bf889f7e5e2c2a76f0f362e469cf22fc8e2d7",
+          "original_id": "KH-Q096"
+        },
+        {
+          "fingerprint": "ab7907677d945b1ea90841ecc44d0028d74654cbe55050747810f7745dd72261",
+          "original_id": "C50"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "a3f3c1a3bd3865a89e74fe9cbcbbe7594faca5b2c6567234bdf859de22115482",
+          "original_id": "KH-Q098"
+        },
+        {
+          "fingerprint": "7bbd0b15c539f6c4fd876820af38edb6ac18bc452aee4fbb07a9a2506b44d823",
+          "original_id": "C45"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "正确"
+      ],
+      "members": [
+        {
+          "fingerprint": "685898b0cd797e41f57888ef2ba7995bcde38b8f4152d43cc8aad5c36528650f",
+          "original_id": "KH-Q099"
+        },
+        {
+          "fingerprint": "6bb573cda141bd76c34b96388c38884f8942dc4c45363afdb39313474632f0e3",
+          "original_id": "C43"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "abc5b18ec4bbd85170c686b694beb95a48a0feb2c99cb40e005dda81d5fe4592",
+          "original_id": "KH-Q100"
+        },
+        {
+          "fingerprint": "18ad59ee959ac17d37fd6c663ab0f76c049972aaee6fe27751c2c6fb1cd1061a",
+          "original_id": "C49"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "87cab9b947063089383cf7cfdad18a24fbfc10b3e89e7164cf87dabd8179e11e",
+          "original_id": "KH-Q101"
+        },
+        {
+          "fingerprint": "84df620934fac3faebe007f05168b63eb48c3683831d289f4a0f4f4f89eea8cd",
+          "original_id": "C42"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "type": "judge",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answers": [
+        "错误"
+      ],
+      "members": [
+        {
+          "fingerprint": "4b4d6954c2073f341720d541c8683c71bdbbfef0c79deab444321a2d5ce0741d",
+          "original_id": "KH-Q103"
+        },
+        {
+          "fingerprint": "56b6276c4db838d75edc3db8db1315a9043a15c5409bbd4f9a800e40b5482f7f",
+          "original_id": "C48"
+        }
+      ]
+    }
+  ]
+}

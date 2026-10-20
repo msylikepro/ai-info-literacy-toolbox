@@ -1,0 +1,2538 @@
+{
+  "format": 1,
+  "checkedDate": "2026-10-15",
+  "sites": {
+    "www.gov.cn": {
+      "name": "中国政府网",
+      "aliases": [
+        "中央人民政府门户网站",
+        "中华人民共和国中央人民政府",
+        "gov.cn"
+      ],
+      "sources": [
+        "https://www.gov.cn/?tid=1"
+      ]
+    },
+    "hulianhutongshequ.cn": {
+      "name": "互联互通社区智库中心",
+      "aliases": [
+        "互联互通社区",
+        "IT互联网智库"
+      ],
+      "sources": [
+        "https://hulianhutongshequ.cn/"
+      ]
+    },
+    "www.cac.gov.cn": {
+      "name": "中国网信网",
+      "aliases": [
+        "国家互联网信息办公室",
+        "中央网络安全和信息化委员会办公室",
+        "国家网信办"
+      ],
+      "sources": [
+        "https://www.cac.gov.cn/lxwm.html"
+      ]
+    },
+    "202.115.54.22": {
+      "name": "四川大学图书馆",
+      "aliases": [
+        "四川大学",
+        "川大图书馆",
+        "Sichuan University Library"
+      ],
+      "sources": [
+        "https://lib.scu.edu.cn/sites/default/files/2024-05/20240509.pdf",
+        "https://clas.cas.cn/tsfw/yjhj/"
+      ]
+    },
+    "www.cas.cn": {
+      "name": "中国科学院",
+      "aliases": [
+        "中科院",
+        "Chinese Academy of Sciences",
+        "CAS"
+      ],
+      "sources": [
+        "https://www.cas.cn/"
+      ]
+    },
+    "www.sjtu.edu.cn": {
+      "name": "上海交通大学",
+      "aliases": [
+        "上海交大",
+        "SJTU",
+        "Shanghai Jiao Tong University"
+      ],
+      "sources": [
+        "https://www.sjtu.edu.cn/"
+      ]
+    },
+    "research.bjmu.edu.cn": {
+      "name": "北京大学医学部科学研究与学科建设",
+      "aliases": [
+        "北京大学医学部科研处",
+        "北大医学科研",
+        "PKU Health Science Center"
+      ],
+      "sources": [
+        "https://research.bjmu.edu.cn/"
+      ]
+    },
+    "unesdoc.unesco.org": {
+      "name": "联合国教科文组织数字图书馆",
+      "aliases": [
+        "UNESCO数字图书馆",
+        "UNESDOC Digital Library",
+        "UNESCO Digital Library"
+      ],
+      "sources": [
+        "https://unesdoc.unesco.org/library?locale=en"
+      ]
+    },
+    "aisg.tongji.edu.cn": {
+      "name": "上海市人工智能社会治理协同创新中心",
+      "aliases": [
+        "同济大学人工智能社会治理协同创新中心",
+        "同济大学",
+        "AISG"
+      ],
+      "sources": [
+        "https://aisg.tongji.edu.cn/"
+      ]
+    },
+    "developer.aliyun.com": {
+      "name": "阿里云开发者社区",
+      "aliases": [
+        "阿里云",
+        "Alibaba Cloud Developer Community"
+      ],
+      "sources": [
+        "https://developer.aliyun.com/"
+      ]
+    },
+    "www.aidaxue.com": {
+      "name": "AI大学堂",
+      "aliases": [
+        "科大讯飞AI大学堂",
+        "讯飞AI大学堂"
+      ],
+      "sources": [
+        "https://www.aidaxue.com/"
+      ]
+    },
+    "ascend.developer.huaweicloud.com": {
+      "name": "华为云昇腾专区",
+      "aliases": [
+        "昇腾专区",
+        "华为云开发者学堂",
+        "Ascend"
+      ],
+      "sources": [
+        "https://ascend.developer.huaweicloud.com/home"
+      ]
+    },
+    "zh.d2l.ai": {
+      "name": "动手学深度学习",
+      "aliases": [
+        "Dive into Deep Learning",
+        "D2L",
+        "动手学深度学习中文版"
+      ],
+      "sources": [
+        "https://zh.d2l.ai/"
+      ]
+    },
+    "www.elementsofai.com": {
+      "name": "Elements of AI",
+      "aliases": [
+        "人工智能基础",
+        "AI基础课程"
+      ],
+      "sources": [
+        "https://course.elementsofai.com/1/"
+      ]
+    },
+    "www.lib.szu.edu.cn": {
+      "name": "深圳大学图书馆",
+      "aliases": [
+        "深大图书馆",
+        "Shenzhen University Library"
+      ],
+      "sources": [
+        "https://www.lib.szu.edu.cn/learning/ai"
+      ]
+    },
+    "yuanbao.tencent.com": {
+      "name": "腾讯元宝",
+      "aliases": [
+        "元宝",
+        "Tencent Yuanbao"
+      ],
+      "sources": [
+        "https://yuanbao.tencent.com/ailab/zh/about"
+      ]
+    },
+    "www.sciencedirect.com": {
+      "name": "ScienceDirect",
+      "aliases": [
+        "爱思唯尔ScienceDirect",
+        "Elsevier ScienceDirect",
+        "SD数据库"
+      ],
+      "sources": [
+        "https://www.sciencedirect.com/org"
+      ]
+    },
+    "ai.cnki.net": {
+      "name": "CNKI AI",
+      "aliases": [
+        "知网AI",
+        "中国知网AI",
+        "中国知网智能知识服务平台"
+      ],
+      "sources": [
+        "https://library.sysu.edu.cn/article/4604"
+      ],
+      "note": "产品主页动态访问受限，名称由大学图书馆官方数据库说明核实。"
+    },
+    "paper.iflytek.com": {
+      "name": "星火科研助手",
+      "aliases": [
+        "讯飞星火科研助手",
+        "科大讯飞科研助手"
+      ],
+      "sources": [
+        "https://paper.iflytek.com/"
+      ]
+    },
+    "eci.elsevier.cn": {
+      "name": "思唯学苑",
+      "aliases": [
+        "爱思唯尔思唯学苑",
+        "Elsevier China",
+        "爱思唯尔科研医学服务平台"
+      ],
+      "sources": [
+        "https://eci.elsevier.cn/"
+      ]
+    },
+    "mp.weixin.qq.com": {
+      "name": "微信公众平台",
+      "aliases": [
+        "微信公众号",
+        "WeChat Official Accounts Platform"
+      ],
+      "sources": [
+        "https://hiflow.tencent.com/document/applications/wx_platform/"
+      ],
+      "note": "已核实平台名称；所列文章链接访问受限，未推断具体文章标题。"
+    },
+    "www.doubao.com": {
+      "name": "豆包",
+      "aliases": [
+        "豆包AI",
+        "Doubao"
+      ],
+      "sources": [
+        "https://www.doubao.com/about",
+        "https://www.doubao.com/legal/feature_intro"
+      ]
+    },
+    "github.com": {
+      "name": "GitHub",
+      "aliases": [
+        "GitHub代码托管平台",
+        "开源代码社区"
+      ],
+      "sources": [
+        "https://github.com/"
+      ]
+    },
+    "modelscope.cn": {
+      "name": "魔搭社区",
+      "aliases": [
+        "ModelScope",
+        "ModelScope魔搭社区"
+      ],
+      "sources": [
+        "https://modelscope.cn/"
+      ]
+    },
+    "aistudio.baidu.com": {
+      "name": "飞桨AI Studio星河社区",
+      "aliases": [
+        "百度AI Studio",
+        "AI Studio",
+        "星河社区",
+        "飞桨社区"
+      ],
+      "sources": [
+        "https://aistudio.baidu.com/"
+      ]
+    },
+    "www.heywhale.com": {
+      "name": "和鲸社区",
+      "aliases": [
+        "HeyWhale",
+        "Heywhale"
+      ],
+      "sources": [
+        "https://www.heywhale.com/"
+      ]
+    },
+    "tianchi.aliyun.com": {
+      "name": "阿里云天池",
+      "aliases": [
+        "天池",
+        "Tianchi",
+        "天池大数据众智平台"
+      ],
+      "sources": [
+        "https://tianchi.aliyun.com/"
+      ]
+    },
+    "www.datafountain.cn": {
+      "name": "DataFountain",
+      "aliases": [
+        "DataFountain数据科学竞赛创新平台",
+        "DF平台"
+      ],
+      "sources": [
+        "https://www.datafountain.cn/"
+      ]
+    },
+    "opendatalab.com": {
+      "name": "OpenDataLab",
+      "aliases": [
+        "开放数据实验室",
+        "上海人工智能实验室OpenDataLab"
+      ],
+      "sources": [
+        "https://opendatalab.com/"
+      ]
+    },
+    "www.openml.org": {
+      "name": "OpenML",
+      "aliases": [
+        "开放机器学习平台",
+        "Open Machine Learning"
+      ],
+      "sources": [
+        "https://www.openml.org/"
+      ]
+    },
+    "archive.ics.uci.edu": {
+      "name": "UCI机器学习数据集库",
+      "aliases": [
+        "UCI Machine Learning Repository",
+        "UC Irvine Machine Learning Repository",
+        "UCI机器学习资源库"
+      ],
+      "sources": [
+        "https://archive.ics.uci.edu/"
+      ]
+    },
+    "archive-beta.ics.uci.edu": {
+      "name": "UCI机器学习数据集库（新版）",
+      "aliases": [
+        "UCI Machine Learning Repository",
+        "UCI机器学习数据集库",
+        "UCI新版"
+      ],
+      "sources": [
+        "https://archive.ics.uci.edu/"
+      ],
+      "note": "旧站首页将 archive-beta.ics.uci.edu 明确链接为 New Website；新版域名直接访问超时。"
+    },
+    "docs.github.com": {
+      "name": "GitHub文档",
+      "aliases": [
+        "GitHub Docs",
+        "GitHub中文文档"
+      ],
+      "sources": [
+        "https://docs.github.com/zh"
+      ]
+    },
+    "jhsjk.people.cn": {
+      "name": "习近平系列重要讲话数据库",
+      "aliases": [
+        "人民网重要讲话数据库",
+        "中国共产党新闻网"
+      ],
+      "sources": [
+        "https://jhsjk.people.cn/"
+      ]
+    },
+    "www.12371.cn": {
+      "name": "共产党员网",
+      "aliases": [
+        "中共中央组织部共产党员网",
+        "12371"
+      ],
+      "sources": [
+        "https://www.12371.cn/"
+      ]
+    },
+    "xhsz.news.cn": {
+      "name": "新华思政",
+      "aliases": [
+        "新华网新华思政",
+        "全国高校课程思政教学资源服务平台"
+      ],
+      "sources": [
+        "https://xhsz.news.cn/train",
+        "https://xhsz.news.cn/curriculum/detail/2493"
+      ]
+    },
+    "www.escience.org.cn": {
+      "name": "中国科技资源共享网",
+      "aliases": [
+        "国家科技基础条件平台中心",
+        "eScience"
+      ],
+      "sources": [
+        "https://www.escience.org.cn/data-center"
+      ]
+    },
+    "www.scidb.cn": {
+      "name": "科学数据银行",
+      "aliases": [
+        "ScienceDB",
+        "科学数据银行ScienceDB"
+      ],
+      "sources": [
+        "https://www.scidb.cn/"
+      ]
+    },
+    "data.worldbank.org": {
+      "name": "世界银行开放数据",
+      "aliases": [
+        "World Bank Open Data",
+        "世界银行数据"
+      ],
+      "sources": [
+        "https://data.worldbank.org/"
+      ]
+    },
+    "data.stats.gov.cn": {
+      "name": "国家统计局数据发布库",
+      "aliases": [
+        "国家数据",
+        "国家统计局数据查询系统",
+        "National Data"
+      ],
+      "sources": [
+        "https://www.stats.gov.cn/xw/tjxw/tzgg/202603/t20260325_1962844.html"
+      ]
+    },
+    "flk.npc.gov.cn": {
+      "name": "国家法律法规数据库",
+      "aliases": [
+        "全国人大国家法律法规数据库",
+        "法律法规数据库"
+      ],
+      "sources": [
+        "https://flk.npc.gov.cn/search"
+      ]
+    },
+    "xzfg.moj.gov.cn": {
+      "name": "国家行政法规库",
+      "aliases": [
+        "司法部国家行政法规库",
+        "行政法规库"
+      ],
+      "sources": [
+        "https://xzfg.moj.gov.cn/search2.html"
+      ]
+    },
+    "www.moj.gov.cn": {
+      "name": "中华人民共和国司法部",
+      "aliases": [
+        "司法部",
+        "中国政府法制信息网",
+        "Ministry of Justice"
+      ],
+      "sources": [
+        "https://www.moj.gov.cn/pub/sfbgw/fzgz/fzgzxzlf/fzgzbagz/202602/t20260212_531739.html"
+      ]
+    },
+    "rmfyalk.court.gov.cn": {
+      "name": "人民法院案例库",
+      "aliases": [
+        "最高人民法院案例库",
+        "人民法院案例"
+      ],
+      "sources": [
+        "https://rmfyalk.court.gov.cn/"
+      ]
+    },
+    "gongbao.court.gov.cn": {
+      "name": "最高人民法院公报",
+      "aliases": [
+        "中华人民共和国最高人民法院公报",
+        "最高人民法院公报检索系统"
+      ],
+      "sources": [
+        "https://rmfyalk.court.gov.cn/"
+      ],
+      "note": "人民法院案例库官方页底部明确链接该主机并标注“中华人民共和国最高人民法院公报”。"
+    },
+    "zxgk.court.gov.cn": {
+      "name": "中国执行信息公开网",
+      "aliases": [
+        "中国执行信息网",
+        "最高人民法院执行信息公开平台"
+      ],
+      "sources": [
+        "https://www.court.gov.cn/zixun/xiangqing/101002.html"
+      ]
+    },
+    "tingshen.court.gov.cn": {
+      "name": "中国庭审公开网",
+      "aliases": [
+        "庭审公开网",
+        "人民法院庭审直播"
+      ],
+      "sources": [
+        "https://www.court.gov.cn/upload/file/2020/03/09/11/23/20200309112306_13696.pdf"
+      ]
+    },
+    "wenshu.court.gov.cn": {
+      "name": "中国裁判文书网",
+      "aliases": [
+        "裁判文书网",
+        "最高人民法院裁判文书"
+      ],
+      "sources": [
+        "https://wenshu.court.gov.cn/"
+      ]
+    },
+    "lawpro.cnki.net": {
+      "name": "中国法律智库",
+      "aliases": [
+        "中国知网法律智库",
+        "中国法律知识资源总库",
+        "知网法库",
+        "法律智库AI版"
+      ],
+      "sources": [
+        "https://www.jsass.org.cn/sjb/wzgg/202409/t20240902_18084.html",
+        "https://libold.chd.edu.cn/info/1541/21101.htm"
+      ],
+      "note": "产品主页访问受限，平台名称由社科院及大学图书馆官方产品说明核实。"
+    },
+    "openstd.samr.gov.cn": {
+      "name": "国家标准全文公开系统",
+      "aliases": [
+        "国家标准全文公开",
+        "国家标准公开"
+      ],
+      "sources": [
+        "https://openstd.samr.gov.cn/bzgk/gb/",
+        "https://www.sac.gov.cn/bsfw/bszn/art/2020/art_1a1bb5efef0e4cdbb5f2f0cf91435504.html"
+      ]
+    },
+    "std.samr.gov.cn": {
+      "name": "全国标准信息公共服务平台",
+      "aliases": [
+        "国家标准信息公共服务平台",
+        "标准信息公共服务平台"
+      ],
+      "sources": [
+        "https://std.samr.gov.cn/gb"
+      ]
+    },
+    "sppt.cfsa.net.cn:8086": {
+      "name": "食品安全国家标准数据检索平台",
+      "aliases": [
+        "食品安全国家标准查询",
+        "国家食品安全风险评估中心"
+      ],
+      "sources": [
+        "https://www.nhc.gov.cn/sps/spaqbzcx/202010/4d35f768efc74fdaa1d1b7fea7197cdd.shtml"
+      ]
+    },
+    "gb2760.cfsa.net.cn": {
+      "name": "食品添加剂使用标准查询系统",
+      "aliases": [
+        "GB 2760查询",
+        "食品添加剂查询",
+        "国家食品安全风险评估中心"
+      ],
+      "sources": [
+        "https://www.jetro.go.jp/ext_images/world/asia/cn/foods/exportguide/pdf/cn_pastry_link_2026.pdf",
+        "https://www.ykxs.gov.cn/govxxgk/xsq/2026-07-14/8e1c349a-6aa6-4b3f-8207-b177c8000731.html"
+      ],
+      "note": "主页访问超时，政府官方说明确认其为国家食品安全风险评估中心食品添加剂查询平台。"
+    },
+    "sppt.cfsa.net.cn:8087": {
+      "name": "食品安全地方标准数据检索平台",
+      "aliases": [
+        "食品安全地方标准查询",
+        "国家食品安全风险评估中心"
+      ],
+      "sources": [
+        "https://www.cqcdc.org/index.php?a=shows&catid=2283&id=3634"
+      ]
+    },
+    "www.mee.gov.cn": {
+      "name": "中华人民共和国生态环境部",
+      "aliases": [
+        "生态环境部",
+        "MEE"
+      ],
+      "sources": [
+        "https://www.mee.gov.cn/ywgz/fgbz/bz/"
+      ]
+    },
+    "www.mohurd.gov.cn": {
+      "name": "中华人民共和国住房和城乡建设部",
+      "aliases": [
+        "住房和城乡建设部",
+        "住建部",
+        "MOHURD"
+      ],
+      "sources": [
+        "https://www.mohurd.gov.cn/"
+      ]
+    },
+    "www.cnki.net": {
+      "name": "中国知网",
+      "aliases": [
+        "CNKI",
+        "知网",
+        "中国知识基础设施工程",
+        "China National Knowledge Infrastructure"
+      ],
+      "sources": [
+        "https://www.cnki.net/"
+      ]
+    },
+    "www.wanfangdata.com.cn": {
+      "name": "万方数据知识服务平台",
+      "aliases": [
+        "万方",
+        "万方数据",
+        "Wanfang Data"
+      ],
+      "sources": [
+        "https://www.wanfangdata.com.cn/"
+      ]
+    },
+    "www.cqvip.com": {
+      "name": "维普网",
+      "aliases": [
+        "维普",
+        "维普资讯",
+        "VIP",
+        "CQVIP"
+      ],
+      "sources": [
+        "https://www.cqvip.com/"
+      ]
+    },
+    "sbj.cnipa.gov.cn": {
+      "name": "中国商标网",
+      "aliases": [
+        "国家知识产权局商标局",
+        "商标查询",
+        "商标局"
+      ],
+      "sources": [
+        "https://sbj.cnipa.gov.cn/sbj/index.html",
+        "https://sbj.cnipa.gov.cn/sbj/tzgg/202501/W020250116556068130565.pdf"
+      ]
+    },
+    "epub.cnipa.gov.cn": {
+      "name": "中国专利公布公告系统",
+      "aliases": [
+        "专利公布公告",
+        "国家知识产权局专利公布公告系统"
+      ],
+      "sources": [
+        "https://www.cnipa.gov.cn/jact/front/mailpubdetail.do?sysid=12&transactId=518816",
+        "http://epub.cnipa.gov.cn/"
+      ]
+    },
+    "pss-system.cponline.cnipa.gov.cn": {
+      "name": "国家知识产权局专利检索及分析系统",
+      "aliases": [
+        "专利检索及分析系统",
+        "智能化专利检索及分析系统",
+        "Patent Search and Analysis"
+      ],
+      "sources": [
+        "https://www.cnipa.gov.cn/art/2024/4/1/art_3359_191346.html",
+        "https://www.cnipa.gov.cn/art/2022/7/26/art_53_176815.html"
+      ]
+    },
+    "www.uspto.gov": {
+      "name": "美国专利商标局",
+      "aliases": [
+        "USPTO",
+        "United States Patent and Trademark Office",
+        "美国专利与商标局"
+      ],
+      "sources": [
+        "https://www.uspto.gov/patents/search/patent-public-search"
+      ]
+    },
+    "ie.espacenet.com": {
+      "name": "Espacenet 专利检索（爱尔兰）",
+      "aliases": [
+        "Espacenet",
+        "Esp@cenet",
+        "欧洲专利检索",
+        "爱尔兰专利检索"
+      ],
+      "sources": [
+        "https://www.ipoi.gov.ie/en/understanding-ip/international-ip-rights/international-ip-searches/",
+        "https://www.ipoi.gov.ie/en/ip-search-tools/patents-search/patent-international-searches/"
+      ]
+    },
+    "patentscope2.wipo.int": {
+      "name": "PATENTSCOPE 专利检索",
+      "aliases": [
+        "PATENTSCOPE",
+        "世界知识产权组织专利检索",
+        "WIPO PATENTSCOPE"
+      ],
+      "sources": [
+        "https://www.wipo.int/en/web/patentscope/index"
+      ]
+    },
+    "www.cnipa.gov.cn": {
+      "name": "国家知识产权局",
+      "aliases": [
+        "CNIPA",
+        "China National Intellectual Property Administration"
+      ],
+      "sources": [
+        "https://www.cnipa.gov.cn/"
+      ]
+    },
+    "ggfw.cnipa.gov.cn": {
+      "name": "国家知识产权公共服务平台",
+      "aliases": [
+        "国家知识产权局公共服务平台",
+        "知识产权公共服务网",
+        "地理标志查询"
+      ],
+      "sources": [
+        "https://ggfw.cnipa.gov.cn/home",
+        "https://ggfw.cnipa.gov.cn/homeindex"
+      ]
+    },
+    "www.piyao.org.cn": {
+      "name": "中国互联网联合辟谣平台",
+      "aliases": [
+        "联合辟谣平台",
+        "中国互联网辟谣平台",
+        "辟谣"
+      ],
+      "sources": [
+        "http://www.piyao.org.cn/",
+        "https://www.piyao.org.cn/pysjk/frontsql.htm"
+      ]
+    },
+    "www.nhc.gov.cn": {
+      "name": "国家卫生健康委员会",
+      "aliases": [
+        "国家卫健委",
+        "NHC",
+        "National Health Commission"
+      ],
+      "sources": [
+        "http://www.nhc.gov.cn/"
+      ]
+    },
+    "www.nmpa.gov.cn": {
+      "name": "国家药品监督管理局",
+      "aliases": [
+        "国家药监局",
+        "NMPA",
+        "National Medical Products Administration",
+        "药品数据查询"
+      ],
+      "sources": [
+        "https://www.nmpa.gov.cn/",
+        "https://www.nmpa.gov.cn/datasearch/home-index.html"
+      ]
+    },
+    "chkd.cnki.net": {
+      "name": "中国医院知识总库（CHKD）",
+      "aliases": [
+        "CHKD",
+        "中国医院数字图书馆",
+        "中国医院知识仓库",
+        "CHKD AI"
+      ],
+      "sources": [
+        "https://chkd.cnki.net/ai/",
+        "https://literature.chinacdc.cn/kejiwenxian/xueshuziyuan/zhongwenshujuk/zwqwk/201501/t20150102_109175.html",
+        "https://www.tjzyefy.com/system/2026/04/22/030188884.shtml"
+      ],
+      "note": "CHKD 官网当前无法读取；中国疾控中心官网确认 CHKD 名称，医院官网确认 CHKD AI 服务，/ai/ 对应页面的精确官方标题未能读取。"
+    },
+    "www.neea.edu.cn": {
+      "name": "中国教育考试网",
+      "aliases": [
+        "教育部教育考试院",
+        "NEEA",
+        "国家教育考试"
+      ],
+      "sources": [
+        "https://www.neea.edu.cn/"
+      ]
+    },
+    "yz.chsi.com.cn": {
+      "name": "中国研究生招生信息网",
+      "aliases": [
+        "研招网",
+        "研究生招生信息网",
+        "考研"
+      ],
+      "sources": [
+        "https://yz.chsi.com.cn/"
+      ]
+    },
+    "www.ncss.cn": {
+      "name": "国家大学生就业服务平台",
+      "aliases": [
+        "24365大学生就业服务平台",
+        "大学生就业",
+        "新职业",
+        "NCSS"
+      ],
+      "sources": [
+        "https://www.ncss.cn/",
+        "https://wap.gj.ncss.cn/ncss/jydt/yw/202609/20260910/2293950058.html"
+      ]
+    },
+    "gj.ncss.cn": {
+      "name": "高校毕业生到国际组织实习任职信息服务平台",
+      "aliases": [
+        "国际组织实习任职信息平台",
+        "国际组织实习任职",
+        "国际组织就业"
+      ],
+      "sources": [
+        "https://gj.ncss.cn/"
+      ]
+    },
+    "cy.ncss.cn": {
+      "name": "全国大学生创业服务网",
+      "aliases": [
+        "大学生创业服务网",
+        "大创网",
+        "大学生创新大赛"
+      ],
+      "sources": [
+        "https://cy.ncss.cn/about/",
+        "https://cy.ncss.cn/?menu_id=13893"
+      ]
+    },
+    "www.chsi.com.cn": {
+      "name": "中国高等教育学生信息网（学信网）",
+      "aliases": [
+        "学信网",
+        "CHSI",
+        "中国高等教育学生信息网",
+        "学历学位查询"
+      ],
+      "sources": [
+        "https://www.chsi.com.cn/"
+      ]
+    },
+    "gs.sac.net.cn": {
+      "name": "中国证券业协会从业人员信息公示",
+      "aliases": [
+        "证券从业人员信息公示",
+        "证券从业人员查询",
+        "中国证券业协会",
+        "SAC"
+      ],
+      "sources": [
+        "https://www.sac.net.cn/sjb/wapwsbs/",
+        "https://gs.sac.net.cn/pages/registration/new-sac-publicity-org.html"
+      ]
+    },
+    "www.amac.org.cn": {
+      "name": "中国证券投资基金业协会",
+      "aliases": [
+        "中国基金业协会",
+        "基金业协会",
+        "AMAC",
+        "Asset Management Association of China"
+      ],
+      "sources": [
+        "https://www.amac.org.cn/fwdt/wyc/jgcprycx/rycx/"
+      ]
+    },
+    "www.china-cba.net": {
+      "name": "中国银行业协会",
+      "aliases": [
+        "中银协",
+        "CBA",
+        "China Banking Association",
+        "银行业专业人员职业资格"
+      ],
+      "sources": [
+        "https://www.china-cba.net/Index/lists/catid/244.html",
+        "https://www.china-cba.net/Index/lists/catid/31.html"
+      ]
+    },
+    "cmis.cicpa.org.cn": {
+      "name": "中国注册会计师协会行业管理信息系统",
+      "aliases": [
+        "中注协行业管理信息系统",
+        "注册会计师行业管理信息系统",
+        "CICPA"
+      ],
+      "sources": [
+        "https://cmis.cicpa.org.cn/",
+        "https://www.cicpa.org.cn/xxfb/tzgg/202509/W020250926566098746718.pdf"
+      ]
+    },
+    "credit.acla.org.cn": {
+      "name": "全国律师执业诚信信息公示平台",
+      "aliases": [
+        "律师诚信公示",
+        "律师执业信息查询",
+        "中华全国律师协会"
+      ],
+      "sources": [
+        "https://credit.acla.org.cn/"
+      ]
+    },
+    "press.nppa.gov.cn": {
+      "name": "中国记者网",
+      "aliases": [
+        "新闻记者证查询",
+        "记者证查询",
+        "全国新闻记者证管理及核验网络系统"
+      ],
+      "sources": [
+        "https://press.nppa.gov.cn/ggl/202601/t20260109_945236_m.html",
+        "https://www.nppa.gov.cn/bsfw/xksx/xwcbxzxkbccl/27018/fwzn_377/201803/t20180309_5292.html"
+      ]
+    },
+    "www.icourse163.org": {
+      "name": "中国大学MOOC",
+      "aliases": [
+        "中国大学慕课",
+        "大学MOOC",
+        "iCourse163",
+        "网易慕课"
+      ],
+      "sources": [
+        "https://www.icourse163.org/"
+      ]
+    },
+    "www.xuetangx.com": {
+      "name": "学堂在线",
+      "aliases": [
+        "XuetangX",
+        "学堂",
+        "清华慕课"
+      ],
+      "sources": [
+        "https://www.xuetangx.com/"
+      ]
+    },
+    "www.zhihuishu.com": {
+      "name": "智慧树网",
+      "aliases": [
+        "智慧树",
+        "Zhihuishu",
+        "知到"
+      ],
+      "sources": [
+        "https://www.zhihuishu.com/"
+      ]
+    },
+    "www.xueyinonline.com": {
+      "name": "学银在线",
+      "aliases": [
+        "学银",
+        "超星学银在线",
+        "Xueyin Online"
+      ],
+      "sources": [
+        "https://www.xueyinonline.com/",
+        "https://www.xueyinonline.com/xueyinonline-ans-vue/"
+      ]
+    },
+    "higher.smartedu.cn": {
+      "name": "国家高等教育智慧教育平台",
+      "aliases": [
+        "智慧高教",
+        "高等教育智慧教育平台",
+        "国家智慧教育公共服务平台高等教育"
+      ],
+      "sources": [
+        "https://higher.smartedu.cn/",
+        "https://higher.smartedu.cn/course/6260b084f29a9e60d0f25188"
+      ]
+    },
+    "vocational.smartedu.cn": {
+      "name": "国家职业教育智慧教育平台",
+      "aliases": [
+        "智慧职教",
+        "职业教育智慧教育平台",
+        "国家智慧教育公共服务平台职业教育"
+      ],
+      "sources": [
+        "https://vocational.smartedu.cn/"
+      ]
+    },
+    "lifelong.smartedu.cn": {
+      "name": "国家智慧教育平台终身学习中心",
+      "aliases": [
+        "终身学习中心",
+        "国家终身学习平台",
+        "终身教育"
+      ],
+      "sources": [
+        "https://lifelong.smartedu.cn/home"
+      ]
+    },
+    "basic.smartedu.cn": {
+      "name": "国家中小学智慧教育平台",
+      "aliases": [
+        "智慧中小学",
+        "中小学智慧教育平台",
+        "国家智慧教育公共服务平台基础教育"
+      ],
+      "sources": [
+        "https://basic.smartedu.cn/"
+      ]
+    },
+    "www.ilab-x.com": {
+      "name": "实验空间",
+      "aliases": [
+        "国家虚拟仿真实验教学项目共享服务平台",
+        "虚拟仿真实验",
+        "iLab-X"
+      ],
+      "sources": [
+        "http://www.ilab-x.com/"
+      ]
+    },
+    "www.icourses.cn": {
+      "name": "爱课程网",
+      "aliases": [
+        "爱课程",
+        "iCourses",
+        "资源共享课",
+        "视频公开课"
+      ],
+      "sources": [
+        "https://www.icourses.cn/courseInfo?courseIndex=3&courseType=2&courseTypeId=2",
+        "https://www.icourses.cn/school/ECNU"
+      ],
+      "note": "官网确认爱课程名称与资源共享课、视频公开课栏目；两个 courseInfo 路由的具体栏目对应关系尚未在可读页面确认，因此不臆造逐条标题。"
+    },
+    "open.163.com": {
+      "name": "网易公开课",
+      "aliases": [
+        "网易开放课程",
+        "NetEase Open Courses",
+        "公开课"
+      ],
+      "sources": [
+        "https://open.163.com/"
+      ]
+    },
+    "suyang.zxhnzq.com": {
+      "name": "高校信息素养教育数据库",
+      "aliases": [
+        "智信数图高校信息素养教育数据库",
+        "高校信息素养教育",
+        "信息素养讲座培训"
+      ],
+      "sources": [
+        "https://suyang.zxhnzq.com/lecture"
+      ]
+    },
+    "k.cnki.net": {
+      "name": "知网在线教学服务平台",
+      "aliases": [
+        "中国知网在线教学服务平台",
+        "CNKI知网在线教学",
+        "知网在线教学",
+        "知网学术大讲堂"
+      ],
+      "sources": [
+        "https://k.cnki.net/home",
+        "https://library.tjau.edu.cn/info/1038/4461.htm"
+      ],
+      "note": "目标官网当前无法读取；名称由天津农学院图书馆平台介绍核实，保留官网入口为来源。"
+    },
+    "video.wanfangdata.com.cn": {
+      "name": "万方视频",
+      "aliases": [
+        "万方数据视频",
+        "万方学术视频",
+        "Wanfang Video"
+      ],
+      "sources": [
+        "https://video.wanfangdata.com.cn/v/play/SR111339107.html",
+        "https://video.wanfangdata.com.cn/v/play/SA050101735.html"
+      ]
+    },
+    "www.xuexi.cn": {
+      "name": "学习强国",
+      "aliases": [
+        "学习强国学习平台",
+        "强国学习"
+      ],
+      "sources": [
+        "https://www.xuexi.cn/"
+      ]
+    },
+    "www.yixi.tv": {
+      "name": "一席",
+      "aliases": [
+        "Yixi",
+        "一席演讲"
+      ],
+      "sources": [
+        "https://www.yixi.tv/"
+      ]
+    },
+    "www.ted.com": {
+      "name": "TED",
+      "aliases": [
+        "TED Talks",
+        "TED演讲",
+        "Technology Entertainment Design"
+      ],
+      "sources": [
+        "https://www.ted.com/"
+      ]
+    },
+    "www.xiaohongshu.com": {
+      "name": "小红书",
+      "aliases": [
+        "REDnote",
+        "Xiaohongshu",
+        "RED"
+      ],
+      "sources": [
+        "https://www.xiaohongshu.com/"
+      ]
+    },
+    "www.bilibili.com": {
+      "name": "哔哩哔哩",
+      "aliases": [
+        "bilibili",
+        "B站",
+        "哔站"
+      ],
+      "sources": [
+        "https://www.bilibili.com/"
+      ]
+    },
+    "www.zhihu.com": {
+      "name": "知乎",
+      "aliases": [
+        "Zhihu",
+        "知乎问答"
+      ],
+      "sources": [
+        "https://www.zhihu.com/"
+      ]
+    },
+    "zhida.zhihu.com": {
+      "name": "知乎直答",
+      "aliases": [
+        "直答",
+        "知乎AI搜索",
+        "Zhihu Zhida"
+      ],
+      "sources": [
+        "https://zhida.zhihu.com/"
+      ]
+    },
+    "www.cambridge.org": {
+      "name": "Cambridge Core（剑桥学术平台）",
+      "aliases": [
+        "Cambridge Core",
+        "剑桥核心",
+        "剑桥大学出版社",
+        "剑桥期刊数据库",
+        "剑桥电子书"
+      ],
+      "sources": [
+        "https://www.cambridge.org/core"
+      ]
+    },
+    "academic.oup.com": {
+      "name": "Oxford Academic（牛津学术平台）",
+      "aliases": [
+        "Oxford Academic",
+        "牛津学术数据库",
+        "牛津大学出版社",
+        "OUP",
+        "牛津电子书",
+        "牛津期刊"
+      ],
+      "sources": [
+        "https://academic.oup.com/books",
+        "https://academic.oup.com/journals"
+      ]
+    },
+    "www.ncbi.nlm.nih.gov": {
+      "name": "美国国家生物技术信息中心（NCBI）",
+      "aliases": [
+        "NCBI",
+        "National Center for Biotechnology Information",
+        "美国生物技术信息中心",
+        "NCBI Bookshelf"
+      ],
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/about/"
+      ]
+    },
+    "www.nlc.cn": {
+      "name": "中国国家图书馆",
+      "aliases": [
+        "国家图书馆",
+        "国图",
+        "NLC",
+        "National Library of China"
+      ],
+      "sources": [
+        "https://www.nlc.cn/web/"
+      ]
+    },
+    "www.loc.gov": {
+      "name": "美国国会图书馆",
+      "aliases": [
+        "Library of Congress",
+        "LOC",
+        "国会图书馆"
+      ],
+      "sources": [
+        "https://www.loc.gov/"
+      ]
+    },
+    "read.nlc.cn": {
+      "name": "国家图书馆读者云门户",
+      "aliases": [
+        "读者云门户",
+        "国家数字图书馆",
+        "国图数字资源",
+        "中华古籍资源库",
+        "民国时期文献资源库",
+        "国家图书馆博士论文数据库"
+      ],
+      "sources": [
+        "https://www.nlc.cn/web/index.shtml",
+        "https://www.nlc.cn/pcab/zx/xw/20200511_191551.shtml"
+      ]
+    },
+    "onlinelibrary.wiley.com": {
+      "name": "Wiley Online Library（威立在线图书馆）",
+      "aliases": [
+        "Wiley",
+        "威立",
+        "威立在线图书馆",
+        "Wiley在线图书馆"
+      ],
+      "sources": [
+        "https://onlinelibrary.wiley.com/"
+      ]
+    },
+    "www.tandfonline.com": {
+      "name": "Taylor & Francis Online（泰勒弗朗西斯在线）",
+      "aliases": [
+        "Taylor & Francis",
+        "Taylor&Francis",
+        "T&F",
+        "泰勒弗朗西斯",
+        "泰勒与弗朗西斯"
+      ],
+      "sources": [
+        "https://www.tandfonline.com//"
+      ]
+    },
+    "dl.acm.org": {
+      "name": "ACM Digital Library（ACM数字图书馆）",
+      "aliases": [
+        "ACM",
+        "ACM DL",
+        "美国计算机协会数字图书馆",
+        "Association for Computing Machinery"
+      ],
+      "sources": [
+        "https://dl.acm.org/",
+        "https://libraries.acm.org/binaries/content/assets/libraries/acmo/tbi-an-acm-digital-library-flyer-a4-mar25.pdf"
+      ]
+    },
+    "asmedigitalcollection.asme.org": {
+      "name": "ASME Digital Collection",
+      "aliases": [
+        "ASME",
+        "美国机械工程师学会数字图书馆",
+        "美国机械工程师学会数字资源"
+      ],
+      "sources": [
+        "https://asmedigitalcollection.asme.org/aws-ebooks"
+      ],
+      "note": "首页访问受限；官网子页标题确认英文品牌。中文别名为检索用说明。"
+    },
+    "www.nature.com": {
+      "name": "Nature（自然）",
+      "aliases": [
+        "Nature",
+        "自然",
+        "自然杂志",
+        "Nature Portfolio"
+      ],
+      "sources": [
+        "https://www.nature.com/"
+      ]
+    },
+    "www.cell.com": {
+      "name": "Cell Press（细胞出版社）",
+      "aliases": [
+        "Cell",
+        "Cell Press",
+        "细胞",
+        "细胞杂志",
+        "细胞出版社"
+      ],
+      "sources": [
+        "https://info.cell.com/cell-press-fens",
+        "https://www.cell.com/"
+      ],
+      "note": "根域为 Cell Press 期刊门户；原资源标题 Cell 可以保留，避免将品牌名替代具体期刊名。"
+    },
+    "www.science.org": {
+      "name": "Science（科学）",
+      "aliases": [
+        "Science",
+        "科学",
+        "科学杂志",
+        "AAAS",
+        "美国科学促进会"
+      ],
+      "sources": [
+        "https://backissues.science.org/",
+        "https://www.science.org/journal/science"
+      ]
+    },
+    "www.ieee.org": {
+      "name": "IEEE（电气与电子工程师协会）",
+      "aliases": [
+        "IEEE",
+        "电气与电子工程师协会",
+        "IEEE会议"
+      ],
+      "sources": [
+        "https://www.ieee.org/conferences/index.html",
+        "https://resourcecenter.ieee.org/conferences",
+        "https://ieeexplore.ieee.org/Xplorehelp/overview-of-ieee-xplore/about-ieee-xplore"
+      ],
+      "note": "原会议页禁止自动抓取，IEEE 官方资源中心及 Xplore 帮助页交叉确认品牌与机构全称。"
+    },
+    "conf.cnki.net": {
+      "name": "中国学术会议网",
+      "aliases": [
+        "CNKI中国学术会议网",
+        "知网学术会议",
+        "中国知网会议服务"
+      ],
+      "sources": [
+        "https://conf.cnki.net/Home",
+        "https://lib.scu.edu.cn/sites/default/files/2024-05/20240509.pdf"
+      ],
+      "note": "已尝试精确主机和原地址，官网超时；原名与四川大学图书馆公开培训材料中的中国知网界面一致。"
+    },
+    "dspace.mit.edu": {
+      "name": "MIT Open Scholarship（DSpace@MIT）",
+      "aliases": [
+        "MIT Open Scholarship",
+        "DSpace@MIT",
+        "MIT Theses",
+        "麻省理工学院机构知识库",
+        "麻省理工学院学位论文"
+      ],
+      "sources": [
+        "https://dspace.mit.edu/home"
+      ],
+      "note": "官网当前主品牌为 MIT Open Scholarship，仍显示 DSpace@MIT；根地址覆盖多类机构成果，不限于学位论文。"
+    },
+    "doaj.org": {
+      "name": "DOAJ（开放获取期刊目录）",
+      "aliases": [
+        "DOAJ",
+        "Directory of Open Access Journals",
+        "开放获取期刊目录",
+        "开放存取期刊目录"
+      ],
+      "sources": [
+        "https://doaj.org/"
+      ]
+    },
+    "www.oalib.com": {
+      "name": "OALib（Open Access Library）",
+      "aliases": [
+        "OALib",
+        "OALIB",
+        "Open Access Library",
+        "开放获取学术文献",
+        "开放存取图书馆"
+      ],
+      "sources": [
+        "https://www.oalib.com/"
+      ],
+      "note": "中文别名为检索用译称与内容说明。"
+    },
+    "arxiv.org": {
+      "name": "arXiv",
+      "aliases": [
+        "arXiv",
+        "预印本",
+        "学术预印本库"
+      ],
+      "sources": [
+        "https://arxiv.org/"
+      ]
+    },
+    "www.chinaxiv.org": {
+      "name": "ChinaXiv（中国科学院科技论文预发布平台）",
+      "aliases": [
+        "ChinaXiv",
+        "中国科学院科技论文预发布平台",
+        "中国科技论文预印本平台"
+      ],
+      "sources": [
+        "https://www.chinaxiv.org/home.htm"
+      ]
+    },
+    "www.medrxiv.org": {
+      "name": "medRxiv",
+      "aliases": [
+        "medRxiv",
+        "医学预印本",
+        "医学预印本平台"
+      ],
+      "sources": [
+        "https://www.medrxiv.org/content/what-unrefereed-preprint"
+      ],
+      "note": "中文别名为检索用内容说明。"
+    },
+    "iopscience.iop.org": {
+      "name": "IOPscience",
+      "aliases": [
+        "IOPscience",
+        "IOP",
+        "英国物理学会出版平台",
+        "英国物理学会期刊"
+      ],
+      "sources": [
+        "https://publishingsupport.iopscience.iop.org/contact-a-journal/",
+        "https://publishingsupport.iopscience.iop.org/library-support/ip-address/"
+      ],
+      "note": "主站受 robots 限制；官方出版支持站确认品牌。中文别名为检索用说明。"
+    },
+    "www.jstor.org": {
+      "name": "JSTOR",
+      "aliases": [
+        "JSTOR",
+        "学术期刊档案",
+        "学术数字图书馆"
+      ],
+      "sources": [
+        "https://www.jstor.org/"
+      ],
+      "note": "中文别名为内容说明，不作为官方中文品牌。"
+    },
+    "bioone.org": {
+      "name": "BioOne Digital Library",
+      "aliases": [
+        "BioOne",
+        "BioOne数字图书馆",
+        "生物学文献",
+        "生命科学数字图书馆"
+      ],
+      "sources": [
+        "https://bioone.org/documents/Flyers/2026/BioOne_DL_For_Libraries_2026.pdf"
+      ],
+      "note": "官方 2026 年图书馆宣传材料使用 BioOne Digital Library；中文别名为检索用说明。"
+    },
+    "www.modernhistory.org.cn": {
+      "name": "抗日战争与近代中日关系文献数据平台",
+      "aliases": [
+        "抗战文献数据平台",
+        "抗日战争文献",
+        "近代中日关系文献"
+      ],
+      "sources": [
+        "https://www.modernhistory.org.cn/",
+        "https://info.modernhistory.org.cn/"
+      ]
+    },
+    "www.ncpssd.cn": {
+      "name": "国家哲学社会科学文献中心",
+      "aliases": [
+        "NCPSSD",
+        "国家社科文献中心",
+        "哲学社会科学文献"
+      ],
+      "sources": [
+        "https://www.ncpssd.cn/",
+        "https://www.ncpssd.cn/index"
+      ]
+    },
+    "fz.people.com.cn": {
+      "name": "国家社科基金项目数据库",
+      "aliases": [
+        "国家社会科学基金项目数据库",
+        "国家社科基金",
+        "社科基金项目查询",
+        "人民网社科基金数据库"
+      ],
+      "sources": [
+        "https://fz.people.com.cn/skygb/sk/index.php/index/index",
+        "https://fz.people.com.cn/skygb/sk/index.php/index/seach"
+      ],
+      "note": "原分页地址返回 403；同一精确主机的官方数据库入口搜索索引确认名称。"
+    },
+    "kd.nsfc.cn": {
+      "name": "国家自然科学基金大数据知识管理服务平台",
+      "aliases": [
+        "国家自然科学基金大数据知识管理服务门户",
+        "国家自然科学基金",
+        "自然科学基金项目查询",
+        "NSFC"
+      ],
+      "sources": [
+        "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+        "https://kd.nsfc.cn/"
+      ],
+      "note": "原站 403；基金委 2026 年官方通告明确列出平台全称和该域名。"
+    },
+    "xueshu.baidu.com": {
+      "name": "百度学术",
+      "aliases": [
+        "百度学术",
+        "Baidu Scholar",
+        "学术搜索"
+      ],
+      "sources": [
+        "https://xueshu.baidu.com/usercenter/show/baiducas?cmd=intro",
+        "https://a.xueshu.baidu.com/usercenter/show/baiducas?cmd=page"
+      ]
+    },
+    "pubmed.ncbi.nlm.nih.gov": {
+      "name": "PubMed",
+      "aliases": [
+        "PubMed",
+        "生物医学文献检索",
+        "美国国立医学图书馆",
+        "医学文献"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/"
+      ]
+    },
+    "pubscholar.cn": {
+      "name": "PubScholar公益学术平台",
+      "aliases": [
+        "PubScholar",
+        "公益学术平台",
+        "中国科学院公益学术平台"
+      ],
+      "sources": [
+        "https://pubscholar.cn/"
+      ]
+    },
+    "www.nstl.gov.cn": {
+      "name": "国家科技图书文献中心",
+      "aliases": [
+        "NSTL",
+        "国家科技图书文献中心",
+        "科技文献服务"
+      ],
+      "sources": [
+        "https://www.nstl.gov.cn/"
+      ]
+    },
+    "www.iconfont.cn": {
+      "name": "iconfont（阿里巴巴矢量图标库）",
+      "aliases": [
+        "iconfont",
+        "Iconfont",
+        "阿里巴巴矢量图标库",
+        "阿里图标库"
+      ],
+      "sources": [
+        "https://www.iconfont.cn/"
+      ]
+    },
+    "unsplash.com": {
+      "name": "Unsplash",
+      "aliases": [
+        "Unsplash",
+        "摄影图库",
+        "图片素材",
+        "免费图片"
+      ],
+      "sources": [
+        "https://unsplash.com/"
+      ],
+      "note": "中文别名为检索用内容说明。"
+    },
+    "pixabay.com": {
+      "name": "Pixabay",
+      "aliases": [
+        "Pixabay",
+        "图片素材",
+        "插画素材",
+        "免费图库"
+      ],
+      "sources": [
+        "https://pixabay.com/"
+      ],
+      "note": "中文别名为检索用内容说明。"
+    },
+    "image.cnki.net": {
+      "name": "CNKI学术图片知识库",
+      "aliases": [
+        "知网学术图片知识库",
+        "中国知网学术图片库",
+        "知网图片",
+        "学术图片"
+      ],
+      "sources": [
+        "https://image.cnki.net/AI",
+        "https://image.cnki.net/",
+        "https://lib.ustc.edu.cn/%E7%94%B5%E5%AD%90%E8%B5%84%E6%BA%90/cnki%E5%90%8C%E6%96%B9%E6%9C%9F%E5%88%8A%E5%8F%8A%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87/"
+      ],
+      "note": "已尝试精确主机 /AI、根页和历史帮助页，官网不可访问或超时；名称由中科大图书馆公开资源说明交叉确认，不猜测 /AI 页面独立产品名。"
+    },
+    "scidraw.io": {
+      "name": "SciDraw",
+      "aliases": [
+        "SciDraw",
+        "科研插画",
+        "科学插图",
+        "科研绘图素材"
+      ],
+      "sources": [
+        "https://scidraw.io/"
+      ],
+      "note": "官网标题 SciDraw - Scientific Illustrations；中文别名为检索用说明。"
+    },
+    "smart.servier.com": {
+      "name": "Servier Medical Art（SMART）",
+      "aliases": [
+        "Servier Medical Art",
+        "SMART",
+        "施维雅医学插图",
+        "医学插图素材"
+      ],
+      "sources": [
+        "https://smart.servier.com/"
+      ],
+      "note": "官网标题 SMART - Servier Medical ART；中文别名为检索用译称与内容说明。"
+    },
+    "image.baidu.com": {
+      "name": "百度图片",
+      "aliases": [
+        "百度图片",
+        "百度图片搜索",
+        "Baidu Images"
+      ],
+      "sources": [
+        "https://image.baidu.com/"
+      ]
+    },
+    "pic.sogou.com": {
+      "name": "搜狗图片",
+      "aliases": [
+        "搜狗图片",
+        "搜狗图片搜索",
+        "Sogou Images"
+      ],
+      "sources": [
+        "https://pic.sogou.com/"
+      ]
+    },
+    "image.so.com": {
+      "name": "360图片",
+      "aliases": [
+        "360图片",
+        "360图片搜索",
+        "好搜图片"
+      ],
+      "sources": [
+        "https://image.so.com/"
+      ]
+    },
+    "hao.uisdc.com": {
+      "name": "优设导航",
+      "aliases": [
+        "优设导航",
+        "优设设计导航",
+        "设计师网址导航"
+      ],
+      "sources": [
+        "https://hao.uisdc.com/"
+      ]
+    },
+    "www.hippter.com": {
+      "name": "HiPPTER（PPT资源导航）",
+      "aliases": [
+        "HiPPTER",
+        "PPT资源导航",
+        "PPT导航",
+        "演示设计资源"
+      ],
+      "sources": [
+        "https://www.hippter.com/"
+      ]
+    },
+    "www.wenxianxue.cn": {
+      "name": "奎章阁（古典文献资源导航系统）",
+      "aliases": [
+        "奎章阁",
+        "古典文献资源导航系统",
+        "文献学",
+        "古典文献导航"
+      ],
+      "sources": [
+        "https://www.wenxianxue.cn/"
+      ],
+      "note": "当前官网标题为“古典文献资源导航系统 - 奎章阁”，比原“文献学”更准确。"
+    },
+    "ai-bot.cn": {
+      "name": "AI工具集",
+      "aliases": [
+        "AI工具集",
+        "AI工具集导航",
+        "人工智能工具导航"
+      ],
+      "sources": [
+        "https://ai-bot.cn/"
+      ]
+    },
+    "index.baidu.com": {
+      "name": "百度指数",
+      "aliases": [
+        "百度指数",
+        "Baidu Index",
+        "搜索指数"
+      ],
+      "sources": [
+        "https://index.baidu.com/v2/index.html"
+      ]
+    },
+    "trendinsight.oceanengine.com": {
+      "name": "抖音指数（原巨量算数）",
+      "aliases": [
+        "抖音指数",
+        "巨量算数",
+        "算数指数",
+        "巨量引擎"
+      ],
+      "sources": [
+        "https://trendinsight.oceanengine.com/arithmetic-index/daren/detail?uid=jdehechegdf",
+        "https://trendinsight.oceanengine.com/"
+      ],
+      "note": "官方精确主机页面明确提示“巨量算数”产品现已升级为“抖音指数”。保留旧名检索别名，不更改原链接。"
+    },
+    "pubmed.gov": {
+      "name": "PubMed",
+      "aliases": [
+        "PubMed",
+        "生物医学文献检索",
+        "美国国立医学图书馆",
+        "医学文献"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/"
+      ],
+      "note": "原域名为 PubMed 简短入口；使用 NLM 官方主站确认品牌，不更改原资源 URL。"
+    },
+    "ieeexplore.ieee.org": {
+      "name": "IEEE Xplore",
+      "aliases": [
+        "IEEE Xplore",
+        "IEEE数字图书馆",
+        "电气电子工程文献",
+        "IEEE论文"
+      ],
+      "sources": [
+        "https://ieeexplore.ieee.org/Xplorehelp/overview-of-ieee-xplore/about-ieee-xplore",
+        "https://ieeexplore.ieee.org/"
+      ]
+    },
+    "www.spiedigitallibrary.org": {
+      "name": "SPIE Digital Library（SPIE数字图书馆）",
+      "aliases": [
+        "SPIE Digital Library",
+        "SPIE数字图书馆",
+        "国际光学工程学会数字图书馆",
+        "光学与光子学文献"
+      ],
+      "sources": [
+        "https://www.spiedigitallibrary.org/librarian-resources"
+      ]
+    },
+    "www.baidu.com": {
+      "name": "百度",
+      "aliases": [
+        "百度",
+        "百度搜索",
+        "百度高级搜索",
+        "Baidu"
+      ],
+      "sources": [
+        "https://www.baidu.com/gaoji/advanced.html"
+      ]
+    },
+    "docs.qq.com": {
+      "name": "腾讯文档",
+      "aliases": [
+        "腾讯文档",
+        "Tencent Docs",
+        "在线协作文档"
+      ],
+      "sources": [
+        "https://docs.qq.com/"
+      ]
+    },
+    "www.wps.cn": {
+      "name": "WPS Office（金山办公）",
+      "aliases": [
+        "WPS",
+        "WPS Office",
+        "金山办公",
+        "金山WPS"
+      ],
+      "sources": [
+        "https://www.wps.cn/"
+      ]
+    },
+    "note.youdao.com": {
+      "name": "有道云笔记",
+      "aliases": [
+        "有道云笔记",
+        "网易有道云笔记",
+        "Youdao Note"
+      ],
+      "sources": [
+        "https://note.youdao.com/"
+      ]
+    },
+    "www.qianwen.com": {
+      "name": "千问",
+      "aliases": [
+        "千问",
+        "通义千问",
+        "Qwen",
+        "阿里AI助手"
+      ],
+      "sources": [
+        "https://www.qianwen.com/"
+      ]
+    },
+    "www.wjx.cn": {
+      "name": "问卷星",
+      "aliases": [
+        "问卷星",
+        "WJX",
+        "在线问卷",
+        "问卷调查"
+      ],
+      "sources": [
+        "https://www.wjx.cn/"
+      ]
+    },
+    "gw.xkonglong.com": {
+      "name": "小恐龙公文排版助手",
+      "aliases": [
+        "小恐龙公文排版助手",
+        "小恐龙公文排版",
+        "Word公文排版插件",
+        "WPS公文排版插件"
+      ],
+      "sources": [
+        "https://gw.xkonglong.com/"
+      ],
+      "note": "精确主机官网标题为“小恐龙公文排版助手 for Word/WPS”。"
+    },
+    "www.yuketang.cn": {
+      "name": "雨课堂",
+      "aliases": [
+        "雨课堂",
+        "清华雨课堂",
+        "Rain Classroom",
+        "智慧教学"
+      ],
+      "sources": [
+        "https://www.yuketang.cn/"
+      ]
+    },
+    "www.office-ai.cn": {
+      "name": "OfficeAI助手",
+      "aliases": [
+        "OfficeAI助手",
+        "Office AI助手",
+        "OfficeAI",
+        "办公AI助手"
+      ],
+      "sources": [
+        "https://www.office-ai.cn/"
+      ]
+    },
+    "www.yunzhan365.com": {
+      "name": "云展网",
+      "aliases": [
+        "云展网",
+        "云展网办公工具集",
+        "PDF转Word",
+        "在线PDF转换"
+      ],
+      "sources": [
+        "https://www.yunzhan365.com/tools/pdf-to-word/",
+        "https://www.yunzhan365.com/tools/"
+      ]
+    },
+    "www.nppa.gov.cn": {
+      "name": "国家新闻出版署",
+      "aliases": [
+        "国家新闻出版署",
+        "新闻出版署",
+        "从业机构和产品查询",
+        "期刊查询"
+      ],
+      "sources": [
+        "https://www.nppa.gov.cn/bsfw/cyjghcpcx/"
+      ]
+    },
+    "xztg.cnki.net": {
+      "name": "CNKI写作投稿服务平台",
+      "aliases": [
+        "知网写作投稿服务平台",
+        "知网写作投稿",
+        "CNKI选刊投稿服务平台",
+        "论文投稿"
+      ],
+      "sources": [
+        "https://xztg.cnki.net/",
+        "https://lkks.cbpt.cnki.net/EditordN/JournalSelectContribute.aspx",
+        "https://lib.ynufe.edu.cn/info/1003/23051.htm"
+      ],
+      "note": "原站访问失败；知网旗下协同采编页面确认服务名称，高校官方通知明确对应此域名。"
+    },
+    "cx.wanfangdata.com.cn": {
+      "name": "万方科研诚信培训系统",
+      "aliases": [
+        "科研诚信培训系统",
+        "万方科研诚信",
+        "科研诚信与学术规范",
+        "学术伦理培训"
+      ],
+      "sources": [
+        "https://cx.wanfangdata.com.cn/e-training/"
+      ],
+      "note": "精确原路径官网标题为“科研诚信培训系统”；前缀“万方”用于区分同名系统。"
+    },
+    "publishmedia.cbpt.cnki.net": {
+      "name": "中国知网期刊平台",
+      "aliases": [
+        "CNKI期刊平台",
+        "中国知网腾云平台",
+        "知网期刊附件",
+        "中国核电杂志"
+      ],
+      "sources": [
+        "https://publishmedia.cbpt.cnki.net/",
+        "https://dhdz.cbpt.cnki.net/portal/journal/portal/client/news/2173907c7bcfbe9cdab91406ab3ed056",
+        "https://zghd.cbpt.cnki.net/portal/journal/portal/client/news/53ef1382d850cb2446e62ca2c59d4f3d"
+      ],
+      "note": "该精确主机是多种知网期刊网站共用的媒体附件主机，根页无产品标题。官方期刊页面显示此主机的附件并注明中国知网技术支持；原资源 /webs/zghd/ 来自《中国核电》期刊。保留具体 GB/T 7714-2025 文档标题，不将附件主机误当成单独期刊官网。"
+    },
+    "x.cnki.net": {
+      "name": "知网研学",
+      "aliases": [
+        "知网研学",
+        "CNKI研学",
+        "知网研学平台",
+        "文献管理"
+      ],
+      "sources": [
+        "https://x.cnki.net/",
+        "https://x.cnki.net/web/search/#/down"
+      ],
+      "note": "精确主机官方搜索索引的服务提示明确称“知网研学”；原下载路径不可直接抓取。"
+    },
+    "navi.cnki.net": {
+      "name": "中国知网出版物检索",
+      "aliases": [
+        "中国知网期刊导航",
+        "知网出版物检索",
+        "知网期刊RSS订阅",
+        "CNKI期刊导航"
+      ],
+      "sources": [
+        "https://navi.cnki.net/knavi/",
+        "https://gxfz.cbpt.cnki.net/portal",
+        "https://dhdz.cbpt.cnki.net/portal/journal/portal/client/news/4adb16622a65c4547436bddece1e1fe4",
+        "https://kjc.cuit.edu.cn/info/2138/3640.htm"
+      ],
+      "note": "已核查精确主机根路径、期刊详情及原 RSS 路径，访问失败。官方知网期刊页与高校通知确认其为中国知网期刊/出版物检索；4 条 RSS 样题资源保留原具体标题，不猜测代码对应刊名。"
+    },
+    "echarts.apache.org": {
+      "name": "Apache ECharts",
+      "aliases": [
+        "Apache ECharts",
+        "ECharts",
+        "百度图表",
+        "数据可视化图表"
+      ],
+      "sources": [
+        "https://echarts.apache.org/zh/index.html"
+      ],
+      "note": "“百度图表”为历史检索别名，当前品牌为 Apache ECharts。"
+    },
+    "www.weiciyun.com": {
+      "name": "微词云",
+      "aliases": [
+        "微词云",
+        "文字云",
+        "词云生成器"
+      ],
+      "sources": [
+        "https://www.weiciyun.com/"
+      ]
+    },
+    "www.citexs.com": {
+      "name": "Citexs（赛特新思科研助手）",
+      "aliases": [
+        "Citexs",
+        "赛特新思",
+        "赛特新思科研助手",
+        "Paperpicky",
+        "文献可视化"
+      ],
+      "sources": [
+        "https://www.citexs.com/Paperpicky"
+      ]
+    }
+  },
+  "titles": {
+    "10": {
+      "title": "《学生人工智能能力框架》",
+      "sources": [
+        "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66973",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000391105"
+      ]
+    },
+    "18": {
+      "title": "生成式人工智能专题",
+      "sources": [
+        "https://www.lib.szu.edu.cn/learning/ai"
+      ]
+    },
+    "34": {
+      "title": "UCI机器学习数据集库",
+      "sources": [
+        "https://archive.ics.uci.edu/"
+      ]
+    },
+    "35": {
+      "title": "UCI机器学习数据集库（新版）",
+      "sources": [
+        "https://archive.ics.uci.edu/"
+      ]
+    },
+    "37": {
+      "title": "GitHub文档",
+      "sources": [
+        "https://docs.github.com/zh"
+      ]
+    },
+    "38": {
+      "title": "习近平系列重要讲话数据库",
+      "sources": [
+        "https://jhsjk.people.cn/"
+      ]
+    },
+    "39": {
+      "title": "共产党员网",
+      "sources": [
+        "https://www.12371.cn/"
+      ]
+    },
+    "40": {
+      "title": "新华思政",
+      "sources": [
+        "https://xhsz.news.cn/train",
+        "https://xhsz.news.cn/curriculum/detail/2493"
+      ]
+    },
+    "41": {
+      "title": "国家科学数据中心",
+      "sources": [
+        "https://www.escience.org.cn/data-center"
+      ]
+    },
+    "45": {
+      "title": "国家统计局数据发布库",
+      "sources": [
+        "https://www.stats.gov.cn/xw/tjxw/tzgg/202603/t20260325_1962844.html"
+      ]
+    },
+    "46": {
+      "title": "国家法律法规数据库",
+      "sources": [
+        "https://flk.npc.gov.cn/search"
+      ]
+    },
+    "47": {
+      "title": "国家行政法规库",
+      "sources": [
+        "https://xzfg.moj.gov.cn/search2.html"
+      ]
+    },
+    "48": {
+      "title": "国家行政法规库",
+      "sources": [
+        "https://xzfg.moj.gov.cn/search2.html"
+      ]
+    },
+    "49": {
+      "title": "国家规章库",
+      "sources": [
+        "https://www.gongqing.gov.cn/sfj/02/zdly/shgysy/ggflfw/202504/t20250428_6902874.html"
+      ]
+    },
+    "50": {
+      "title": "国家规章库",
+      "sources": [
+        "https://tsg.gxust.edu.cn/system/_content/download.jsp?owner=1519766458&urltype=news.DownloadAttachUrl&wbfileid=16632724"
+      ]
+    },
+    "51": {
+      "title": "人民法院案例库",
+      "sources": [
+        "https://rmfyalk.court.gov.cn/"
+      ]
+    },
+    "52": {
+      "title": "最高人民法院公报",
+      "sources": [
+        "https://rmfyalk.court.gov.cn/"
+      ]
+    },
+    "53": {
+      "title": "中国执行信息公开网",
+      "sources": [
+        "https://www.court.gov.cn/zixun/xiangqing/101002.html"
+      ]
+    },
+    "54": {
+      "title": "中国庭审公开网",
+      "sources": [
+        "https://www.court.gov.cn/upload/file/2020/03/09/11/23/20200309112306_13696.pdf"
+      ]
+    },
+    "55": {
+      "title": "中国裁判文书网",
+      "sources": [
+        "https://wenshu.court.gov.cn/"
+      ]
+    },
+    "56": {
+      "title": "中国法律智库",
+      "sources": [
+        "https://www.jsass.org.cn/sjb/wzgg/202409/t20240902_18084.html",
+        "https://libold.chd.edu.cn/info/1541/21101.htm"
+      ]
+    },
+    "58": {
+      "title": "国家标准全文公开系统",
+      "sources": [
+        "https://openstd.samr.gov.cn/bzgk/gb/",
+        "https://www.sac.gov.cn/bsfw/bszn/art/2020/art_1a1bb5efef0e4cdbb5f2f0cf91435504.html"
+      ]
+    },
+    "59": {
+      "title": "全国标准信息公共服务平台·国家标准",
+      "sources": [
+        "https://std.samr.gov.cn/gb"
+      ]
+    },
+    "60": {
+      "title": "食品安全国家标准数据检索平台",
+      "sources": [
+        "https://www.nhc.gov.cn/sps/spaqbzcx/202010/4d35f768efc74fdaa1d1b7fea7197cdd.shtml"
+      ]
+    },
+    "61": {
+      "title": "食品添加剂使用标准查询系统",
+      "sources": [
+        "https://www.jetro.go.jp/ext_images/world/asia/cn/foods/exportguide/pdf/cn_pastry_link_2026.pdf",
+        "https://www.ykxs.gov.cn/govxxgk/xsq/2026-07-14/8e1c349a-6aa6-4b3f-8207-b177c8000731.html"
+      ]
+    },
+    "62": {
+      "title": "食品安全地方标准数据检索平台",
+      "sources": [
+        "https://www.cqcdc.org/index.php?a=shows&catid=2283&id=3634"
+      ]
+    },
+    "63": {
+      "title": "生态环境标准",
+      "sources": [
+        "https://www.mee.gov.cn/ywgz/fgbz/bz/"
+      ]
+    },
+    "64": {
+      "title": "标准公告",
+      "sources": [
+        "https://www.mohurd.gov.cn/gongkai/fdzdgknr/bzgg/index.html"
+      ]
+    },
+    "117": {
+      "title": "阿里云天池",
+      "sources": [
+        "https://tianchi.aliyun.com/"
+      ]
+    },
+    "68": {
+      "title": "中国商标网—商标查询",
+      "sources": [
+        "https://sbj.cnipa.gov.cn/sbj/index.html",
+        "https://sbj.cnipa.gov.cn/sbj/sbcx"
+      ]
+    },
+    "71": {
+      "title": "美国专利商标局—Patent Public Search（专利公共检索）",
+      "sources": [
+        "https://www.uspto.gov/patents/search/patent-public-search"
+      ]
+    },
+    "75": {
+      "title": "国家知识产权公共服务平台—地理标志产品检索",
+      "sources": [
+        "https://ggfw.cnipa.gov.cn/homeindex",
+        "https://ggfw.cnipa.gov.cn/dlbzsq/dbQuery"
+      ]
+    },
+    "89": {
+      "title": "中国证券投资基金业协会—人员查询",
+      "sources": [
+        "https://www.amac.org.cn/fwdt/wyc/jgcprycx/rycx/"
+      ]
+    },
+    "106": {
+      "title": "高校信息素养教育数据库—讲座/培训",
+      "sources": [
+        "https://suyang.zxhnzq.com/lecture"
+      ]
+    },
+    "119": {
+      "title": "Oxford Academic—牛津学术电子书",
+      "sources": [
+        "https://academic.oup.com/books"
+      ]
+    },
+    "123": {
+      "title": "国家图书馆—中华古籍资源库",
+      "sources": [
+        "https://www.nlc.cn/pcab/zx/xw/20260104_2650321.shtml",
+        "http://read.nlc.cn/thematDataSearch/toGujiIndex"
+      ]
+    },
+    "124": {
+      "title": "国家图书馆—民国时期文献资源库",
+      "sources": [
+        "https://www.nlc.cn/web/",
+        "http://read.nlc.cn/specialResourse/minguoIndex",
+        "https://lib.wzu.edu.cn/info/1652/38134.htm"
+      ]
+    },
+    "131": {
+      "title": "Cell Press（细胞出版社）",
+      "sources": [
+        "https://www.cell.com/",
+        "https://info.cell.com/cell-press-fens"
+      ]
+    },
+    "136": {
+      "title": "MIT Open Scholarship（DSpace@MIT）",
+      "sources": [
+        "https://dspace.mit.edu/home"
+      ]
+    },
+    "148": {
+      "title": "国家社科基金项目数据库",
+      "sources": [
+        "https://fz.people.com.cn/skygb/sk/index.php/index/index"
+      ]
+    },
+    "157": {
+      "title": "CNKI学术图片知识库",
+      "sources": [
+        "https://image.cnki.net/AI",
+        "https://lib.ustc.edu.cn/%E7%94%B5%E5%AD%90%E8%B5%84%E6%BA%90/cnki%E5%90%8C%E6%96%B9%E6%9C%9F%E5%88%8A%E5%8F%8A%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87/"
+      ]
+    },
+    "166": {
+      "title": "奎章阁（古典文献资源导航系统）",
+      "sources": [
+        "https://www.wenxianxue.cn/"
+      ]
+    },
+    "173": {
+      "title": "百度高级搜索",
+      "sources": [
+        "https://www.baidu.com/gaoji/advanced.html"
+      ]
+    },
+    "179": {
+      "title": "小恐龙公文排版助手",
+      "sources": [
+        "https://gw.xkonglong.com/"
+      ]
+    },
+    "182": {
+      "title": "PDF转Word - 云展网办公工具集",
+      "sources": [
+        "https://www.yunzhan365.com/tools/pdf-to-word/"
+      ]
+    },
+    "183": {
+      "title": "从业机构和产品查询 - 国家新闻出版署",
+      "sources": [
+        "https://www.nppa.gov.cn/bsfw/cyjghcpcx/"
+      ]
+    },
+    "186": {
+      "title": "科研诚信培训系统 - 万方数据",
+      "sources": [
+        "https://cx.wanfangdata.com.cn/e-training/"
+      ]
+    },
+    "188": {
+      "title": "知网研学",
+      "sources": [
+        "https://x.cnki.net/"
+      ]
+    },
+    "79": {
+      "title": "国家药品监督管理局数据查询",
+      "sources": [
+        "https://www.nmpa.gov.cn/datasearch/home-index.html"
+      ]
+    }
+  },
+  "legacyTitles": {
+    "1": "《生成式人工智能服务管理暂行办法》",
+    "2": "《生成式人工智能服务安全基本要求》",
+    "3": "《人工智能拟人化互动服务管理暂行办法》",
+    "4": "《四川大学本科教育教学人工智能工具应用规范（试行）》",
+    "5": "《关于在科研活动中规范使用人工智能技术的诚信提醒》",
+    "6": "《上海交通大学关于在教育教学中使用AI的规范》",
+    "7": "《学术出版中AIGC使用边界指南3.0》",
+    "8": "《人工智能伦理问题建议书》",
+    "9": "《生成式人工智能 教育与研究应用指南》",
+    "10": "unesdoc.unesco.org",
+    "11": "《教师人工智能能力框架》",
+    "12": "《欧盟人工智能法》（全文中译本）",
+    "13": "阿里云开发者社区中的人工智能学习路线",
+    "14": "科大讯飞的AI大学堂",
+    "15": "华为云开发者学堂中的昇腾AI专区",
+    "16": "动手学深度学习",
+    "17": "Elements of AI",
+    "18": "lib.szu.edu.cn",
+    "19": "yuanbao.tencent.com",
+    "20": "LeapSpace",
+    "21": "CNKI AI",
+    "22": "讯飞星火科研助手",
+    "23": "eci.elsevier.cn",
+    "24": "mp.weixin.qq.com",
+    "25": "豆包",
+    "26": "GitHub",
+    "27": "魔搭社区",
+    "28": "百度AI Studio",
+    "29": "和鲸社区HeyWhale",
+    "30": "阿里云天池数据集",
+    "31": "DataFountain",
+    "32": "OpenDataLab",
+    "33": "OpenML",
+    "34": "archive.ics.uci.edu",
+    "35": "archive-beta.ics.uci.edu",
+    "36": "GitHub",
+    "37": "docs.github.com",
+    "38": "jhsjk.people.cn",
+    "39": "12371.cn",
+    "40": "xhsz.news.cn",
+    "41": "escience.org.cn",
+    "42": "科学数据银行 ScienceDB",
+    "43": "世界银行开放数据",
+    "44": "mp.weixin.qq.com",
+    "45": "国家统计局数据查询系统",
+    "46": "flk.npc.gov.cn",
+    "47": "gov.cn",
+    "48": "xzfg.moj.gov.cn",
+    "49": "gov.cn",
+    "50": "moj.gov.cn",
+    "51": "rmfyalk.court.gov.cn",
+    "52": "gongbao.court.gov.cn",
+    "53": "zxgk.court.gov.cn",
+    "54": "tingshen.court.gov.cn",
+    "55": "wenshu.court.gov.cn",
+    "56": "lawpro.cnki.net",
+    "57": "3c637b40ca5558c2379f711404eb14e922f8897cf32da&mpshare=1&scene=23&srcid=0612m8yC0d0RF2jEoZXOyZoT&sharer_shareinfo",
+    "58": "openstd.samr.gov.cn",
+    "59": "std.samr.gov.cn",
+    "60": "sppt.cfsa.net.cn:8086",
+    "61": "gb2760.cfsa.net.cn",
+    "62": "sppt.cfsa.net.cn:8087",
+    "63": "mee.gov.cn",
+    "64": "mohurd.gov.cn",
+    "65": "CNKI",
+    "66": "万方",
+    "67": "维普",
+    "68": "sbj.cnipa.gov.cn",
+    "69": "中国专利公布公告系统",
+    "70": "pss-system.cponline.cnipa.gov.cn",
+    "71": "uspto.gov",
+    "72": "ie.espacenet.com",
+    "73": "patentscope2.wipo.int",
+    "74": "国家知识产权局",
+    "75": "ggfw.cnipa.gov.cn",
+    "76": "中国互联网联合辟谣平台",
+    "77": "中国互联网联合辟谣平台",
+    "78": "国家卫生健康委员会",
+    "79": "国家药品监督管理局数据查询",
+    "80": "chkd.cnki.net",
+    "81": "mp.weixin.qq.com",
+    "82": "中国教育考试网",
+    "83": "中国研究生招生信息网",
+    "84": "国家大学生就业服务平台",
+    "85": "gj.ncss.cn",
+    "86": "cy.ncss.cn",
+    "87": "学信网",
+    "88": "gs.sac.net.cn",
+    "89": "amac.org.cn",
+    "90": "china-cba.net",
+    "91": "cmis.cicpa.org.cn",
+    "92": "credit.acla.org.cn",
+    "93": "press.nppa.gov.cn",
+    "94": "中国大学MOOC",
+    "95": "学堂在线",
+    "96": "智慧树",
+    "97": "学银在线",
+    "98": "higher.smartedu.cn",
+    "99": "vocational.smartedu.cn",
+    "100": "lifelong.smartedu.cn",
+    "101": "basic.smartedu.cn",
+    "102": "ilab-x.com",
+    "103": "icourses.cn",
+    "104": "icourses.cn",
+    "105": "open.163.com",
+    "106": "suyang.zxhnzq.com",
+    "107": "k.cnki.net",
+    "108": "video.wanfangdata.com.cn",
+    "109": "xuexi.cn",
+    "110": "一席",
+    "111": "TED",
+    "112": "小红书",
+    "113": "哔哩哔哩",
+    "114": "知乎",
+    "115": "知乎直答",
+    "116": "和鲸社区",
+    "117": "tianchi.aliyun.com",
+    "118": "剑桥期刊数据库",
+    "119": "academic.oup.com",
+    "120": "NCBI",
+    "121": "中国国家图书馆",
+    "122": "美国国会图书馆",
+    "123": "read.nlc.cn",
+    "124": "read.nlc.cn",
+    "125": "ScienceDirect",
+    "126": "Wiley",
+    "127": "Taylor&Francis",
+    "128": "ACM",
+    "129": "ASME",
+    "130": "Nature",
+    "131": "Cell",
+    "132": "Science",
+    "133": "IEEE",
+    "134": "CNKI中国学术会议网",
+    "135": "国家图书馆博士论文数据库",
+    "136": "MIT Theses",
+    "137": "DOAJ",
+    "138": "OALIB",
+    "139": "arXiv",
+    "140": "ChinaXiv",
+    "141": "medRxiv",
+    "142": "牛津学术数据库",
+    "143": "IOPscience",
+    "144": "jstor",
+    "145": "BioOne数字图书馆",
+    "146": "抗日战争与近代中日关系文献数据平台",
+    "147": "国家哲学社会科学文献中心",
+    "148": "fz.people.com.cn",
+    "149": "国家自然科学基金大数据知识管理服务门户",
+    "150": "百度学术",
+    "151": "PubMed",
+    "152": "PubScholar公益学术平台",
+    "153": "国家科技图书文献中心",
+    "154": "Iconfont",
+    "155": "Unsplash",
+    "156": "Pixabay",
+    "157": "image.cnki.net",
+    "158": "scidraw.io",
+    "159": "smart.servier.com",
+    "160": "image.baidu.com",
+    "161": "pic.sogou.com",
+    "162": "image.so.com",
+    "163": "mp.weixin.qq.com",
+    "164": "优设导航",
+    "165": "HiPPTER",
+    "166": "文献学",
+    "167": "AI工具集",
+    "168": "index.baidu.com",
+    "169": "trendinsight.oceanengine.com",
+    "170": "PubMed",
+    "171": "IEEE Xplore",
+    "172": "SPIE数字图书馆",
+    "173": "baidu.com",
+    "174": "腾讯文档",
+    "175": "WPS",
+    "176": "有道云笔记",
+    "177": "千问",
+    "178": "问卷星",
+    "179": "gw.xkonglong.com",
+    "180": "雨课堂",
+    "181": "Office AI助手",
+    "182": "云展网",
+    "183": "nppa.gov.cn",
+    "184": "mp.weixin.qq.com",
+    "185": "CNKI写作投稿服务平台",
+    "186": "cx.wanfangdata.com.cn",
+    "187": "GB/T 7714-2025",
+    "188": "x.cnki.net",
+    "189": "mp.weixin.qq.com",
+    "190": "样题选项A：RSS订阅地址",
+    "191": "样题选项B：RSS订阅地址",
+    "192": "样题选项C：RSS订阅地址",
+    "193": "样题选项D：RSS订阅地址",
+    "194": "Apache ECharts",
+    "195": "微词云",
+    "196": "赛特新思"
+  }
+}

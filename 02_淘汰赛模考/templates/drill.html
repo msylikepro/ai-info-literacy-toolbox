@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}{{ '错题重练' if drill_mode=='wrong' else '全题库刷题' }} · AI+信息素养{% endblock %}
+{% block content %}
+<div class="heading drill-heading"><div><a href="/">← 训练控制台</a><h1>{{ '错题重练' if drill_mode=='wrong' else '全题库刷题' }}</h1><p class="muted">不限时 · 提交后立即查看答案 · 进度按账号自动保存</p></div><div class="row drill-entry-actions"><a class="button" href="/favorites">我的收藏集</a><a class="button" href="/wrong-book">我的错题本</a></div></div>
+<div id="drill-error" class="notice hidden" role="alert"></div>
+<section id="drill-welcome" class="card"><h2 id="welcome-title">正在读取刷题进度…</h2><p id="welcome-description" class="muted"></p><button id="drill-start" class="primary" disabled>开始本轮刷题</button></section>
+<div id="drill-panel" class="examgrid drill-layout" hidden>
+  <aside class="card drill-progress"><h2 id="round-title">本轮进度</h2><p id="round-progress" class="bigscore"></p><progress id="round-meter" max="100" value="0" aria-label="本轮完成进度"></progress><p id="round-position" class="muted"></p><div class="drill-stats"><p>答对 <strong id="round-correct">0</strong></p><p>答错 <strong id="round-wrong">0</strong></p></div><p id="save-status" class="save-status" role="status">进度已保存至本机账号</p><p class="muted">随时返回控制台或关闭程序；重新打开后，登录原账号继续。</p><a class="button wide" href="/">返回控制台</a><p id="bank-change" class="muted" hidden>本轮使用开始时的题库，新增题目将在下一轮加入。</p></aside>
+  <section class="card drill-question-card"><div class="favorite-tools"><button id="drill-favorite" aria-pressed="false">☆ 收藏本题</button><span id="favorite-save-status" class="save-status" role="status"></span></div><div id="drill-question"></div><div id="drill-feedback" aria-live="polite"></div><div class="row between drill-actions"><span id="answer-hint" class="muted"></span><div class="row"><button id="drill-submit" class="primary">提交答案</button><button id="drill-next" class="primary" hidden>下一题</button></div></div><section id="round-complete" class="round-complete" hidden><h2>本轮已完成</h2><p id="round-summary"></p><div class="row"><button id="drill-new-round" class="primary">开始新一轮</button><a class="button" href="/wrong-book">查看错题本</a>{% if drill_mode=='wrong' %}<a class="button" href="/drill">返回全题库刷题</a>{% endif %}</div></section></section>
+</div>
+<script>window.drillMode={{ drill_mode|tojson }};</script><script src="{{ url_for('static',filename='drill.js') }}"></script>
+{% endblock %}

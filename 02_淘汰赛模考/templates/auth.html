@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% block title %}{{ '注册' if mode=='register' else '登录' }} · 训练平台{% endblock %}
+{% block content %}<div class="auth card"><h1>{{ '创建账号' if mode=='register' else '登录' }}</h1><p class="muted">每位队员使用自己的账号，成绩分别保存。</p>
+<form method="post"><label>用户名<input name="username" minlength="3" maxlength="30" required autocomplete="username"></label>
+<label>密码<input name="password" type="password" minlength="8" required autocomplete="{{ 'new-password' if mode=='register' else 'current-password' }}"></label>
+<button class="primary wide">{{ '注册并进入' if mode=='register' else '登录' }}</button></form>
+<p>{% if mode=='register' %}已有账号？<a href="/login">去登录</a>{% else %}没有账号？<a href="/register">注册</a>{% endif %}</p></div>{% endblock %}

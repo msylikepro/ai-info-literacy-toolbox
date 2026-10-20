@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}我的收藏集 · AI+信息素养{% endblock %}
+{% block content %}
+<div class="heading drill-heading"><div><a href="/">← 训练控制台</a><h1>我的收藏集</h1><p class="muted">自由复习 · 可直接显示答案 · 不改变错题本、刷题进度或模考成绩</p></div><div class="row drill-entry-actions"><button id="favorite-refresh">刷新收藏集</button><a class="button" href="/drill">返回刷题 / 继续上次</a></div></div>
+<div id="favorite-error" class="notice hidden" role="alert"></div>
+<p id="favorite-status" class="save-status" role="status">正在读取收藏…</p>
+<section id="favorite-empty" class="card" hidden><h2>还没有收藏题目</h2><p>刷题时点击“收藏本题”，即可加入这里。收藏按本机账号保存，退出后仍会保留。</p><a class="button primary" href="/drill">去刷题并收藏</a></section>
+<div id="favorite-panel" class="examgrid drill-layout" hidden>
+  <aside class="card drill-progress"><h2>收藏题目</h2><p id="favorite-count" class="bigscore"></p><div id="favorite-numbers" class="numbers favorite-numbers" aria-label="选择收藏题目"></div><p class="muted">收藏按账号保存；移出仅取消收藏，不删除题库题目。本页可反复练习，不记录成绩或错题。</p></aside>
+  <section class="card drill-question-card"><div class="row between favorite-top"><span id="favorite-position" class="pill"></span><button id="favorite-remove">移出收藏</button></div><div id="favorite-question"></div><div id="favorite-feedback" aria-live="polite"></div><div class="row between drill-actions"><div class="row"><button id="favorite-submit" class="primary">提交答案</button><button id="favorite-reveal">显示答案</button><button id="favorite-reset" hidden>重新作答</button></div><div class="row"><button id="favorite-prev">上一题</button><button id="favorite-next">下一题</button></div></div></section>
+</div>
+<script src="{{ url_for('static',filename='favorites.js') }}"></script>
+{% endblock %}

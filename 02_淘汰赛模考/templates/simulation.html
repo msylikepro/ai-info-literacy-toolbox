@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% block content %}<a href="/">← 控制台</a><div class="heading"><div><h1>完整模拟 #{{ sid }}</h1><p>本场队员同时进行个人对抗，全部结束后由任一队员开启团队卷。</p></div><div id="remain" class="clock">--:--</div></div>
+<div id="status" class="card">加载中…</div><div id="message" class="notice hidden"></div>
+<script>const sid={{sid}};const fmt=s=>`${Math.floor(s/60).toString().padStart(2,'0')}:${(s%60).toString().padStart(2,'0')}`;let localEnd=null,loaded=false;
+function renderClock(){if(!loaded)return;document.getElementById('remain').textContent=localEnd===null?'不限时':fmt(Math.max(0,Math.ceil((localEnd-Date.now())/1000)))}
+async function load(){const r=await fetch(`/api/simulation/${sid}`),d=await r.json();if(!r.ok)return;localEnd=d.remaining_seconds===null?null:Date.now()+d.remaining_seconds*1000;loaded=true;renderClock();const people=d.personal.map(x=>`<li>${escapeHtml(x.username)}：${x.submitted?`${x.score} / ${x.max_score} 分 · ${fmt(x.duration_seconds)}`:'作答中'}</li>`).join('');
+let html=`<h2>个人对抗</h2><ul>${people}</ul>`;if(d.complete){html+=`<h2>团队总成绩</h2><p class="bigscore">${d.score} / ${d.max_score} 分</p><p>累计用时 ${fmt(d.duration_seconds)}（所有队员个人用时之和 + 团队用时）</p><p>团队对抗：${d.team.score} / ${d.team_max_score} 分 · ${fmt(d.team.duration_seconds)}</p><a class="button" href="/exam/${d.team.attempt_id}">查看团队卷解析</a>`}
+else if(d.team.started){html+=`<h2>团队对抗</h2><p>${d.team.submitted?'已交卷':'进行中'}</p><a class="button" href="/exam/${d.team.attempt_id}">${d.team.submitted?'查看团队卷':'进入团队卷'}</a>`}
+else if(d.personal.every(x=>x.submitted)){html+=`<h2>团队对抗</h2><button class="primary" onclick="startTeam()">开启团队卷 · ${d.team_limit_minutes===0?'不限时':'最多'+d.team_limit_minutes+'分钟'}</button>`}
+else{html+='<p class="muted">等待所有队员完成个人卷。请各队员从控制台进入自己的试卷。</p>'}document.getElementById('status').innerHTML=html}
+function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+async function startTeam(){const r=await fetch(`/simulation/${sid}/team/start`,{method:'POST'}),d=await r.json();if(!r.ok){const e=document.getElementById('message');e.textContent=d.error;e.classList.remove('hidden');return}location.href='/exam/'+d.attempt_id}
+setInterval(renderClock,500);setInterval(load,5000);load();</script>{% endblock %}

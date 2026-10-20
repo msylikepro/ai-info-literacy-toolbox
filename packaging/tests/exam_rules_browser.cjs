@@ -1,0 +1,132 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const {chromium}=require(path.join(process.env.USERPROFILE,'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'));
+(async()=>{
+  const [base,directory]=process.argv.slice(2);
+  const executable=[path.join(process.env['PROGRAMFILES(X86)']||'C:/Program Files (x86)','Microsoft/Edge/Application/msedge.exe'),path.join(process.env.PROGRAMFILES||'C:/Program Files','Microsoft/Edge/Application/msedge.exe')].find(fs.existsSync);
+  const browser=await chromium.launch({executablePath:executable,headless:true});
+  const context=await browser.newContext({viewport:{width:1440,height:1050}}),page=await context.newPage();
+  const errors=[];page.on('pageerror',error=>errors.push(error.message));
+  const field=(mode,type,key)=>page.locator(`[name="${mode}.${type}.${key}"]`);
+  const get=async route=>(await context.request.get(base+route)).json();
+  const post=async(route,data)=>(await context.request.post(base+route,{data})).json();
+  const open=async()=>{if(!await page.locator('#exam-settings').evaluate(el=>el.open))await page.locator('#exam-settings summary').click();};
+  const save=async()=>{await Promise.all([page.waitForNavigation(),page.getByRole('button',{name:'保存题数与分值',exact:true}).click()]);};
+  try{
+    await page.goto(base+'/register');await page.locator('[name=username]').fill('规则浏览器验收');await page.locator('[name=password]').fill('fixture-password');await page.locator('form button').click();await page.waitForURL(base+'/');
+    await page.locator('#exam-settings summary').waitFor({timeout:5000});await open();
+    assert.equal(await field('personal','single','count').inputValue(),'6');
+    assert.equal(await field('team','single','correct').inputValue(),'4');
+    for(const type of ['single','multi','judge'])await field('personal',type,'count').fill('1');
+    for(const [type,correct,wrong,unanswered] of [['single','0','0','-0.25'],['multi','2','1','0'],['judge','1','0.5','-0.5']]){
+      for(const [key,value] of Object.entries({correct,wrong,unanswered}))await field('personal',type,key).fill(value);
+    }
+    await field('team','single','count').fill('1');await field('team','multi','count').fill('0');await field('team','judge','count').fill('0');await field('team','single','correct').fill('4.5');
+    let starts=0;page.on('request',request=>{if(request.url().endsWith('/training/personal/start'))starts++;});
+    await page.getByRole('button',{name:/个人练习 ·/}).click();assert.equal(starts,0);assert((await page.locator('#message').innerText()).includes('保存'));
+    await page.route('**/api/exam-settings',route=>route.fulfill({status:400,json:{error:'隔离验证：保存失败，请检查分值'}}));
+    await page.getByRole('button',{name:'保存题数与分值',exact:true}).click();await page.locator('#exam-settings-error:not(.hidden)').waitFor();
+    assert.equal(await field('personal','single','unanswered').inputValue(),'-0.25');assert((await page.locator('#exam-settings-error').innerText()).includes('保存失败'));
+    await page.unroute('**/api/exam-settings');
+    await page.route('**/api/exam-settings',route=>route.abort());await page.getByRole('button',{name:'保存题数与分值',exact:true}).click();
+    await page.waitForFunction(()=>document.getElementById('exam-settings-error').textContent.includes('网络异常'));
+    assert.equal(await field('personal','single','unanswered').inputValue(),'-0.25');
+    await page.unroute('**/api/exam-settings');await save();
+    assert(await page.getByRole('button',{name:/个人练习 · 3题/}).isEnabled());
+    const savedRules=await get('/api/exam-settings');
+    const other=await browser.newContext();try{
+      await other.request.post(base+'/register',{form:{username:'规则独立账号',password:'fixture-password'}});
+      assert.equal((await (await other.request.get(base+'/api/exam-settings')).json()).personal.single.count,6);
+      assert.equal((await get('/api/exam-settings')).personal.single.count,1);
+    }finally{await other.close();}
+    await open();assert.equal(Number(await field('personal','single','correct').inputValue()),0);
+    for(const type of ['single','multi','judge'])await field('personal',type,'count').fill('0');
+    await page.getByRole('button',{name:'保存题数与分值',exact:true}).click();assert((await page.locator('#exam-settings-error').innerText()).includes('1'));
+    await field('personal','single','count').fill('1');await field('personal','multi','count').fill('1');await field('personal','judge','count').fill('1');
+    await field('personal','multi','wrong').fill('2.001');await page.getByRole('button',{name:'保存题数与分值',exact:true}).click();assert((await page.locator('#exam-settings-error').innerText()).includes('小数'));
+    await field('personal','multi','wrong').fill('3');await page.getByRole('button',{name:'保存题数与分值',exact:true}).click();assert((await page.locator('#exam-settings-error').innerText()).includes('不得高于'));
+    await field('personal','multi','wrong').fill('1');
+    await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+    await page.screenshot({path:path.join(directory,'个人团队规则设置_手机.png'),fullPage:true});await page.setViewportSize({width:1440,height:1050});
+    await page.goto(base+'/');await page.getByRole('button',{name:/个人练习 · 3题/}).click();await page.waitForURL(/\/exam\/\d+$/);await page.locator('#question input').first().waitFor();
+    const aid=page.url().split('/').pop();assert((await page.locator('#meta').innerText()).includes('满分 3'));assert((await page.locator('#meta').innerText()).includes('答对 0'));
+    const changedRules=structuredClone(savedRules);changedRules.personal.single.correct=10;
+    await post('/api/exam-settings',changedRules);await page.reload();await page.locator('#question input').first().waitFor();
+    assert((await page.locator('#meta').innerText()).includes('满分 3'));assert((await page.locator('#meta').innerText()).includes('答对 0'));
+    await post('/api/exam-settings',savedRules);
+    let submitMessage='';page.once('dialog',async dialog=>{submitMessage=dialog.message();await dialog.dismiss();});await page.locator('#submit').click();
+    assert(submitMessage.includes('按各题型未答规则结算'));assert(submitMessage.includes('-0.25'));
+    await page.locator('#question input[value=A]').check();await page.locator('#next').click();await page.waitForFunction(()=>document.querySelector('#question').textContent.includes('multi'));
+    await page.locator('#question input[value=A]').check();await page.locator('#next').click();await page.waitForFunction(()=>document.querySelector('#question').textContent.includes('judge'));
+    let skipMessage='';page.once('dialog',async dialog=>{skipMessage=dialog.message();await dialog.accept();});await page.locator('#skip').click();assert(skipMessage.includes('-0.5'));
+    await page.waitForFunction(()=>document.querySelector('#title').textContent.includes('成绩复盘'));
+    assert.equal(await page.locator('#numbers .answered').count(),1);assert.equal(await page.locator('#numbers .wrong').count(),1);assert.equal(await page.locator('#numbers .skipped').count(),1);
+    assert((await page.locator('.review').innerText()).includes('答对（0 分）'));await page.locator('#reviewNext').click();assert((await page.locator('.review.bad').innerText()).includes('答错（+1 分）'));
+    const payload=await get('/api/attempt/'+aid);assert.equal(payload.max_score,3);assert.equal(payload.score,0.5);
+    await page.route('**/api/attempt/'+aid,route=>{const legacy=structuredClone(payload);legacy.questions.forEach(q=>delete q.outcome);return route.fulfill({json:legacy});});
+    await page.reload();await page.locator('.review').waitFor();assert.equal(await page.locator('#numbers .wrong').count(),1);assert((await page.locator('.review').innerText()).includes('答对'));
+    await page.unroute('**/api/attempt/'+aid);await page.screenshot({path:path.join(directory,'零分答对与正分答错复盘.png'),fullPage:true});
+    await page.goto(base+'/');assert.match(await page.locator('.history').first().innerText(),/\/ 3(?:\.0)? 分/);
+    await page.locator('input[name=name]').fill('规则验证队');await page.getByRole('button',{name:'创建队伍',exact:true}).click();await page.waitForLoadState('networkidle');
+    assert((await page.getByRole('button',{name:/完整模拟 ·/}).innerText()).includes('4题'));
+    await page.getByRole('button',{name:/完整模拟 · 4题/}).click();await page.waitForURL(/\/simulation\/\d+$/);const sid=page.url().split('/').pop();
+    const live=await get('/api/current');
+    if(live.attempt)await post('/api/attempt/'+live.attempt.id+'/submit');
+    await page.reload();await page.locator('#status').getByRole('button',{name:/开启团队卷/}).waitFor();assert((await page.locator('#status').innerText()).includes('/ 3 分'));
+    await page.locator('#status').getByRole('button',{name:/开启团队卷/}).click();await page.waitForURL(/\/exam\/\d+$/);const teamAid=page.url().split('/').pop();await post('/api/attempt/'+teamAid+'/submit');
+    await page.goto(base+'/simulation/'+sid);await page.locator('.bigscore').waitFor();assert((await page.locator('#status').innerText()).includes('所有队员'));assert((await page.locator('.bigscore').innerText()).includes('/ 7.5 分'));
+    await page.goto(base+'/');await open();await page.getByRole('button',{name:'恢复默认',exact:true}).click();assert.equal(await field('personal','single','count').inputValue(),'6');assert((await get('/api/exam-settings')).personal.single.count===1);await save();
+    assert.equal((await get('/api/exam-settings')).personal.single.count,6);
+    await open();await page.locator('#exam-timing-form').waitFor({timeout:5000});
+    const timeField=mode=>page.locator(`[name="timing.${mode}"]`);
+    const saveTiming=async()=>Promise.all([page.waitForNavigation(),page.getByRole('button',{name:'保存答题时间',exact:true}).click()]);
+    const savedRuleDefaults=await get('/api/exam-settings');
+    for(const [mode,value] of Object.entries({personal:1,team:2,training_personal:0,training_team:1,simulation:0}))await timeField(mode).fill(String(value));
+    await page.getByRole('button',{name:/个人对抗 ·/}).click();assert.equal(page.url(),base+'/');assert((await page.locator('#message').innerText()).includes('保存'));
+    await page.route('**/api/exam-timing',route=>route.fulfill({status:400,json:{error:'时间保存失败，请重试'}}));
+    await page.getByRole('button',{name:'保存答题时间',exact:true}).click();await page.locator('#exam-timing-error:not(.hidden)').waitFor();assert.equal(await timeField('team').inputValue(),'2');
+    await page.unroute('**/api/exam-timing');await page.route('**/api/exam-timing',route=>route.abort());
+    await page.getByRole('button',{name:'保存答题时间',exact:true}).click();await page.waitForFunction(()=>document.getElementById('exam-timing-error').textContent.includes('网络异常'));assert.equal(await timeField('personal').inputValue(),'1');
+    await page.unroute('**/api/exam-timing');
+    for(const bad of ['-1','1.5','1441','']){await timeField('personal').fill(bad);await page.getByRole('button',{name:'保存答题时间',exact:true}).click();assert((await page.locator('#exam-timing-error').innerText()).includes('0–1440'));}
+    await timeField('personal').fill('1');
+    // A reverted draft must stay reverted if another form finishes saving afterward.
+    let releaseTiming,markTimingStarted;
+    const timingGate=new Promise(resolve=>{releaseTiming=resolve;}),timingStarted=new Promise(resolve=>{markTimingStarted=resolve;});
+    await field('personal','single','count').fill('5');
+    await page.route('**/api/exam-timing',async route=>{const response=await route.fetch();markTimingStarted();await timingGate;await route.fulfill({response});});
+    const delayedTimingSave=saveTiming();await timingStarted;
+    await field('personal','single','count').fill('6');releaseTiming();await delayedTimingSave;
+    await page.unroute('**/api/exam-timing');await open();
+    assert.equal(await field('personal','single','count').inputValue(),'6','A draft reverted while saving must not be restored after reload');
+    // Saving either form must retain drafts in the other form without sending them to its API.
+    await field('personal','single','count').fill('5');await saveTiming();await open();
+    assert.equal(await field('personal','single','count').inputValue(),'5');assert.equal((await get('/api/exam-settings')).personal.single.count,6);
+    assert.equal(await page.evaluate(()=>window.examRulesHasUnsavedChanges()),true);
+    await timeField('training_team').fill('2');await save();await open();
+    assert.equal(await timeField('training_team').inputValue(),'2');assert.equal((await get('/api/exam-timing')).training_team,1);
+    await saveTiming();assert.equal((await get('/api/exam-timing')).training_team,2);
+    assert.deepEqual(Object.keys(await get('/api/exam-settings')).sort(),['personal','team']);
+    assert.match(await page.getByRole('button',{name:/个人对抗 ·/}).innerText(),/1分钟/);assert.match(await page.getByRole('button',{name:/团队对抗 ·/}).innerText(),/2分钟/);
+    assert.match(await page.getByRole('button',{name:/个人练习 ·/}).innerText(),/不限时/);assert.match(await page.getByRole('button',{name:/团队练习 ·/}).innerText(),/2分钟/);assert.match(await page.getByRole('button',{name:/完整模拟 ·/}).innerText(),/不限时/);
+    await page.reload();await open();assert.equal(await timeField('personal').inputValue(),'1');
+    await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:path.join(directory,'各模式答题时间_手机.png'),fullPage:true});await page.setViewportSize({width:1440,height:1050});
+    const startAndRead=async name=>{await page.goto(base+'/');await page.getByRole('button',{name}).click();await page.waitForURL(/\/exam\/\d+$/);await page.locator('#question input').first().waitFor();return get('/api/attempt/'+page.url().split('/').pop());};
+    let timed=await startAndRead(/个人对抗 ·/);assert(timed.remaining_seconds>0&&timed.remaining_seconds<=60);assert.notEqual(await page.locator('#clock').innerText(),'不限时');
+    const timingSnapshot=await get('/api/exam-timing');await post('/api/exam-timing',{...timingSnapshot,personal:0});await page.reload();await page.locator('#question input').first().waitFor();assert.notEqual(await page.locator('#clock').innerText(),'不限时');await post('/api/attempt/'+timed.id+'/submit');await post('/api/exam-timing',timingSnapshot);
+    const unlimited=await startAndRead(/个人练习 ·/);assert.equal(unlimited.remaining_seconds,null);assert.equal(await page.locator('#clock').innerText(),'不限时');await post('/api/attempt/'+unlimited.id+'/submit');
+    for(const label of [/团队练习 ·/,/团队对抗 ·/]){timed=await startAndRead(label);assert(timed.remaining_seconds>60&&timed.remaining_seconds<=120);await post('/api/attempt/'+timed.id+'/submit');}
+    const startSimulation=async()=>{await page.goto(base+'/');await page.getByRole('button',{name:/完整模拟 ·/}).click();await page.waitForURL(/\/simulation\/\d+$/);const simId=page.url().split('/').pop();await page.waitForFunction(()=>document.getElementById('remain').textContent==='不限时');assert.equal((await get('/api/simulation/'+simId)).remaining_seconds,null);return simId;};
+    let timedSid=await startSimulation();timed=(await get('/api/current')).attempt;assert(timed.remaining_seconds>0&&timed.remaining_seconds<=60);await post('/api/attempt/'+timed.id+'/submit');await page.reload();await page.getByRole('button',{name:/开启团队卷/}).waitFor();assert.match(await page.getByRole('button',{name:/开启团队卷/}).innerText(),/2分钟/);await page.getByRole('button',{name:/开启团队卷/}).click();await page.waitForURL(/\/exam\/\d+$/);timed=await get('/api/attempt/'+page.url().split('/').pop());assert(timed.remaining_seconds>60&&timed.remaining_seconds<=120);await post('/api/attempt/'+timed.id+'/submit');
+    await post('/api/exam-timing',{...timingSnapshot,personal:0,team:0});const unlimitedSid=await startSimulation();
+    // Changing saved preferences cannot turn a running unlimited simulation into a timed one.
+    await post('/api/exam-timing',{...timingSnapshot,personal:1,team:2,simulation:1});await page.reload();await page.waitForFunction(()=>document.getElementById('remain').textContent==='不限时');
+    const simPersonal=(await get('/api/current')).attempt;assert.equal(simPersonal.remaining_seconds,null);await post('/api/attempt/'+simPersonal.id+'/submit');await page.reload();await page.getByRole('button',{name:'开启团队卷 · 不限时',exact:true}).waitFor();
+    await page.screenshot({path:path.join(directory,'完整模拟与团队卷不限时.png'),fullPage:true});await page.getByRole('button',{name:'开启团队卷 · 不限时',exact:true}).click();await page.waitForURL(/\/exam\/\d+$/);await page.waitForFunction(()=>document.getElementById('clock').textContent==='不限时');
+    const simTeam=await get('/api/attempt/'+page.url().split('/').pop());assert.equal(simTeam.remaining_seconds,null);await post('/api/attempt/'+simTeam.id+'/submit');
+    assert.deepEqual(errors,[]);
+    const report={passed:true,customRulesPersist:true,accountSettingsIsolated:true,activePaperRulesFrozen:true,unsavedStartBlocked:true,saveFailureKeepsInput:true,networkFailureKeepsInput:true,validation:true,mobileNoOverflow:true,zeroPointCorrectAndPositiveWrong:true,legacyOutcomeFallback:true,dynamicSkipAndSubmitMessages:true,dynamicHistoryAndSimulation:true,resetRequiresSave:true,independentTimingForms:true,crossFormDraftsPreserved:true,revertedDraftStaysRevertedAfterDelayedSave:true,timingValidationAndFailures:true,dynamicTimingLabels:true,timedAndUnlimitedPapers:true,unlimitedSimulationWithTimedStages:true,unlimitedSimulationRulesFrozen:true,pageErrors:errors};
+    fs.writeFileSync(path.join(directory,'自定义题数分值浏览器验证.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+  }finally{await context.close();await browser.close();}
+})().catch(error=>{console.error(error);process.exitCode=1;});

@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}AI+信息素养训练平台{% endblock %}</title><link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}"></head>
+<body><header><div class="wrap top"><a class="brand" href="/">AI+信息素养 · 浙江省赛淘汰赛训练</a>{% if session.uid %}<form action="/logout" method="post"><button class="plain">退出登录</button></form>{% endif %}</div></header>
+<main class="wrap">{% for msg in get_flashed_messages() %}<div class="notice">{{ msg }}</div>{% endfor %}{% block content %}{% endblock %}</main>
+<footer class="wrap">刷题与模考训练 · 题库来源按条标注，未经独立核验</footer></body></html>

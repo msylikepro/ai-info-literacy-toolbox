@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-20",
+  "source_database_unchanged": true,
+  "source_before_fixture": {
+    "questions": {
+      "count": 373,
+      "columns": [
+        "id",
+        "fingerprint",
+        "type",
+        "stem",
+        "options",
+        "answer",
+        "source",
+        "module",
+        "original_id",
+        "explanation"
+      ],
+      "sha256": "adbf9737fb7f36d516f08ec88887f8e51e5aa9067873d82ecebe5cd03f9ed261"
+    },
+    "attempts": {
+      "count": 3,
+      "columns": [
+        "id",
+        "kind",
+        "user_id",
+        "team_id",
+        "simulation_id",
+        "started_at",
+        "deadline",
+        "submitted_at",
+        "score",
+        "answers",
+        "current_position",
+        "question_started_at",
+        "correct_points"
+      ],
+      "sha256": "3cef6b892481f95a9f36b92eb7c91ffb8002ab9edf338c4ed09f4ff9eed84ed6"
+    },
+    "attempt_questions": {
+      "count": 40,
+      "columns": [
+        "attempt_id",
+        "position",
+        "question_id",
+        "duration_seconds"
+      ],
+      "sha256": "dd5fedf2f19e7c20d41397dbaae76cb8557f647611ccb58180f4213f190e0f5d"
+    }
+  },
+  "active_questions": 229,
+  "physical_questions": 373,
+  "aliases": 144,
+  "historical_tables_unchanged": [
+    "questions",
+    "attempts",
+    "attempt_questions",
+    "favorite_questions",
+    "wrong_questions"
+  ],
+  "protected_live_items_unchanged": 5,
+  "live_cursors_unchanged": 2,
+  "blank_pending_duplicates_removed": 2,
+  "synthetic_current_feedback_preserved": true,
+  "synthetic_current_draft_preserved": true,
+  "synthetic_future_draft_preserved": true,
+  "finished_round_unchanged": true,
+  "second_start_idempotent": true,
+  "sqlite_integrity": "ok",
+  "credential_columns_selected": false,
+  "temporary_clone_removed_after_verification": true
+}
