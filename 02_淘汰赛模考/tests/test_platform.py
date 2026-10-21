@@ -3,6 +3,7 @@ import json
 import sqlite3
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from app import create_app
 
@@ -28,7 +29,8 @@ class PlatformTest(unittest.TestCase):
     def tearDown(self):
         self.tmp.cleanup()
 
-    def test_team_simulation_and_privacy(self):
+    @patch('app.now', return_value=1_800_000_000)
+    def test_team_simulation_and_privacy(self, _clock):
         leader, second, third, stranger = self.clients
         code = leader.post('/team/create', data={"name": "测试队"}, follow_redirects=True).json['code']
         second.post('/team/join', data={"code": code})

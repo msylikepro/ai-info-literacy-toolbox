@@ -64,6 +64,6 @@ test_keywords_match_stem_and_option_text_case_insensitively_and_literally (test_
 test_requires_login_rejects_invalid_input_and_has_visible_entry (test_question_bank.QuestionBankTest.test_requires_login_rejects_invalid_input_and_has_visible_entry) ... ok
 
 ----------------------------------------------------------------------
-Ran 64 tests in 134.761s
+Ran 64 tests in 146.285s
 
 OK

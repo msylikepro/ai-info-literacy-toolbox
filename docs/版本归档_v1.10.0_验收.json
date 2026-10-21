@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "version": "1.10.0",
+  "effectiveQuestions": 229,
+  "legacyRowsPreserved": 373,
+  "aliases": 144,
+  "examTestsPassed": 64,
+  "aiTestsPassed": 38,
+  "checkerTestsPassed": 26,
+  "upgradesVerified": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1",
+    "1.5.0",
+    "1.6.0",
+    "1.7.0",
+    "1.8.0",
+    "1.9.0"
+  ],
+  "oldArchivesUnchanged": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1",
+    "1.5.0",
+    "1.6.0",
+    "1.7.0",
+    "1.8.0",
+    "1.9.0"
+  ],
+  "noPersonalStateInFullPackage": true,
+  "manifestFiles": 1116,
+  "runtimeAiAndKnowledgeUnchanged": true,
+  "artifacts": [
+    {
+      "name": "AI信息素养工具箱_Windows免安装版_v1.10.0.zip",
+      "bytes": 73841703,
+      "sha256": "f7fcfc914f72a50a82446a4fe2b9799ad64c79d6fdf53744302adf2bd7c24164"
+    },
+    {
+      "name": "AI信息素养工具箱_离线升级_v1.10.0_自动识别旧版.zip",
+      "bytes": 3474044,
+      "sha256": "d86aeb1f237b7c027170baced39bb911fc5ad97cf3c1649646e9678db86d559e"
+    }
+  ]
+}
